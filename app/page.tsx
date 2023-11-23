@@ -25,7 +25,7 @@ export default function Home() {
             https://www.instagram.com/queer_aquarian
           </a>
         </Typography>
-        <Box>
+        {/* <Box>
           <Image
             className="m-5"
             src="/CLOBS.png"
@@ -33,7 +33,7 @@ export default function Home() {
             width={500}
             height={500}
           />
-        </Box>
+        </Box> */}
       </Box>
     </main>
   );
