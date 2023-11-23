@@ -2,7 +2,7 @@ import { Box, Typography } from "@mui/material";
 import Header from "../components/header";
 import ContactForm from "../components/contact-form";
 
-// export default function ContactUs() {
+export default function ContactUs() {
 //   return (
 //     <main className="min-h-screen">
 //       <Header></Header>
@@ -21,4 +21,4 @@ import ContactForm from "../components/contact-form";
 //       </Box>
 //     </main>
 //   );
-// }
+}
