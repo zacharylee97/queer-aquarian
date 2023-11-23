@@ -12,17 +12,20 @@ const companyName = "Queer Aquarian";
 export default function Header() {
   const theme = useTheme();
   const logoStyle = {
-    borderRadius: '50%',
-  }
+    borderRadius: "50%",
+  };
 
   const [drawerState, setDrawerState] = useState(false);
 
   return (
     <Box>
       <AppBar position="fixed" sx={{ zIndex: theme.zIndex.drawer + 1 }}>
-        <Toolbar disableGutters sx={{ display: "flex", justifyContent: "space-between" }}>
+        <Toolbar
+          disableGutters
+          sx={{ display: "flex", justifyContent: "space-between" }}
+        >
           <Box sx={{ display: "flex", alignItems: "center" }}>
-            <Box sx={{ display: { xs: "flex", md: "none" } }}>
+            {/* <Box sx={{ display: { xs: "flex", md: "none" } }}>
               <IconButton
                 size="large"
                 edge="start"
@@ -37,7 +40,7 @@ export default function Header() {
                 open={drawerState}
                 setDrawerState={setDrawerState}
               ></MobileDrawer>
-            </Box>
+            </Box> */}
             <Image
               className="m-5"
               src="/luna.jpeg"
@@ -54,14 +57,14 @@ export default function Header() {
               </Link>
             </Box>
           </Box>
-          <Box sx={{ display: { xs: "none", md: "flex" } }}>
+          {/* <Box sx={{ display: { xs: "none", md: "flex" } }}>
             <Link
               href="/contact-us"
               className="flex items-center m-10 uppercase text-xl"
             >
               Contact Us
             </Link>
-          </Box>
+          </Box> */}
         </Toolbar>
       </AppBar>
     </Box>
