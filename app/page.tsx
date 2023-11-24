@@ -16,13 +16,15 @@ export default function Home() {
             height={1000}
           />
         </Box>
-        <Typography className="m-10" variant="h1">
+        <Typography className="mx-20 mb-3" variant="h1">
           In the meantime...
         </Typography>
-        <Typography className="mx-10 mb-3" variant="h6">
+        <Typography className="mx-20" variant="h6">
           Instagram:{" "}
           <a href="https://www.instagram.com/queer_aquarian">
-            https://www.instagram.com/queer_aquarian
+            <u>
+              https://www.instagram.com/queer_aquarian
+            </u>
           </a>
         </Typography>
         {/* <Box>
