@@ -25,7 +25,7 @@ export default function Header() {
           sx={{ display: "flex" }}
         >
           <Box sx={{ display: "flex", alignItems: "center" }}>
-            {/* <Box sx={{ display: { xs: "flex", md: "none" } }}>
+            <Box sx={{ display: { xs: "flex", md: "none" } }}>
               <IconButton
                 size="large"
                 edge="start"
@@ -40,7 +40,7 @@ export default function Header() {
                 open={drawerState}
                 setDrawerState={setDrawerState}
               ></MobileDrawer>
-            </Box> */}
+            </Box>
             <Image
               className="m-5"
               src="/luna.jpeg"
