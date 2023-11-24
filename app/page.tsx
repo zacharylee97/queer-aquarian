@@ -1,5 +1,6 @@
 import Header from "./components/header";
 import Image from "next/image";
+import Link from "next/link";
 import { Box, Typography } from "@mui/material";
 
 export default function Home() {
@@ -16,26 +17,24 @@ export default function Home() {
             height={1000}
           />
         </Box>
-        <Typography className="mx-20 mb-3" variant="h1">
-          In the meantime...
-        </Typography>
-        <Typography className="mx-20" variant="h6">
-          Instagram:{" "}
-          <a href="https://www.instagram.com/queer_aquarian">
+        <Box className="mx-20">
+          <Typography className="mb-3" variant="h1">
+            In the meantime...
+          </Typography>
+          <Typography className="mb-3" variant="h6">
+            Instagram:{" "}
+            <a href="https://www.instagram.com/queer_aquarian">
+              <u>
+                https://www.instagram.com/queer_aquarian
+              </u>
+            </a>
+          </Typography>
+          <Link href="/clobs">
             <u>
-              https://www.instagram.com/queer_aquarian
+              CLOBS Preview
             </u>
-          </a>
-        </Typography>
-        {/* <Box>
-          <Image
-            className="m-5"
-            src="/CLOBS.png"
-            alt="CLOBS"
-            width={500}
-            height={500}
-          />
-        </Box> */}
+          </Link>
+        </Box>
       </Box>
     </main>
   );
