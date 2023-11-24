@@ -1,6 +1,5 @@
-import { Box, Divider, Drawer, Link, Typography } from "@mui/material";
+import { Box, Drawer, Link } from "@mui/material";
 import React from "react";
-import { MenuItems } from "../interfaces/menu-items";
 import { MobileMenuProps } from "../interfaces/mobile-menu-props";
 
 export default function MobileDrawer({
@@ -19,8 +18,17 @@ export default function MobileDrawer({
       onClose={() => setDrawerState(false)}
     >
       <Box>
-        <Link href="/contact-us" className="flex items-center m-5 uppercase">
-          Contact Us
+        <Link
+          href="/"
+          className="flex items-center m-10 text-xl uppercase"
+        >
+          home
+        </Link>
+        <Link
+          href="/clobs"
+          className="flex items-center m-10 text-xl uppercase"
+        >
+          clobs
         </Link>
       </Box>
     </Drawer>
