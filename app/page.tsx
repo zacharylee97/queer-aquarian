@@ -1,27 +1,17 @@
 import Header from "./components/header";
-import Image from "next/image";
-import Link from "next/link";
 import { Box, Typography } from "@mui/material";
+import InstagramFeed from "./components/instagram-feed";
 
 export default function Home() {
   return (
     <main className="min-h-screen">
       <Header></Header>
       <Box className="flex flex-col mt-28">
-        <Box>
-          <Image
-            className="m-5"
-            src="/coming-soon.png"
-            alt="Coming Soon"
-            width={1000}
-            height={1000}
-          />
-        </Box>
-        <Box className="mx-20">
-          <Typography className="mb-3" variant="h1">
-            In the meantime...
+        <Box className="m-10">
+          <Typography variant="h1">
+            Welcome to Queer Aquarian
           </Typography>
-          <Typography className="mb-3" variant="h6">
+          <Typography variant="h6">
             Instagram:{" "}
             <a href="https://www.instagram.com/queer_aquarian">
               <u>
@@ -29,11 +19,7 @@ export default function Home() {
               </u>
             </a>
           </Typography>
-          <Link href="/clobs">
-            <u>
-              CLOBS Preview
-            </u>
-          </Link>
+          <InstagramFeed></InstagramFeed>
         </Box>
       </Box>
     </main>
