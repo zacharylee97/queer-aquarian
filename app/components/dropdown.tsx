@@ -1,10 +1,10 @@
 import { Box, Button, Divider, Menu } from "@mui/material";
-import React from "react";
 import { DropdownProps } from "../interfaces/dropdown-props";
 import Link from "next/link";
+import { useState } from "react";
 
 export default function Dropdown({ title, menuItems }: DropdownProps) {
-  const [anchorEl, setAnchorEl] = React.useState<null | HTMLElement>(null);
+  const [anchorEl, setAnchorEl] = useState<HTMLElement | null>(null);
   const open = Boolean(anchorEl);
 
   const handleButtonClick = (event: React.MouseEvent<HTMLButtonElement>) => {
