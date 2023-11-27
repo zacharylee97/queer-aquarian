@@ -1,12 +1,14 @@
 import { Box, Typography } from "@mui/material";
 import Header from "../components/header";
 import InstagramFeed from "../components/instagram-feed";
+import MusicPlayer from "../components/music-player";
 
 export default function Home() {
   return (
     <main className="min-h-screen w-screen">
       <Header></Header>
       <Box className="flex flex-col mt-28">
+        <MusicPlayer></MusicPlayer>
         <Box className="m-10 mb-3">
           <Typography variant="h3">
             Instagram

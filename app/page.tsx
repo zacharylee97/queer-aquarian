@@ -1,6 +1,7 @@
 import Header from "./components/header";
 import Image from "next/image";
 import { Box, Typography } from "@mui/material";
+import MusicPlayer from "./components/music-player";
 
 export default function Home() {
   const sloganStyle = {
@@ -12,6 +13,7 @@ export default function Home() {
     <main className="min-h-screen w-screen">
       <Header></Header>
       <Box className="flex flex-col mt-28">
+        <MusicPlayer></MusicPlayer>
         <Image
           src="/slogan.png"
           alt="Slogan"
