@@ -1,8 +1,11 @@
 import { Box, Typography } from "@mui/material";
-import { Playlist } from "../constants/playlist";
+import dynamic from 'next/dynamic'
+
+const SelectedSong = dynamic(() => import('./selected-song'), {
+  loading: () => <p>Loading...</p>,
+})
 
 export default function MusicPlayer() {
-  const selectedSong = Playlist[Math.floor(Math.random() * Playlist.length)];
   return (
     <Box className="m-3">
       <Typography variant="h6">
@@ -12,9 +15,7 @@ export default function MusicPlayer() {
           </u>
           :{" "}
         </b>
-        <i>
-          {selectedSong.title} by {selectedSong.artist}
-        </i>
+        <SelectedSong></SelectedSong>
       </Typography>
     </Box>
   )
