@@ -65,6 +65,12 @@ export default function Header() {
               home
             </Link>
             <Link
+              href="/instagram"
+              className="flex items-center m-10 text-xl uppercase"
+            >
+              instagram
+            </Link>
+            <Link
               href="/clobs"
               className="flex items-center m-10 text-xl uppercase"
             >
