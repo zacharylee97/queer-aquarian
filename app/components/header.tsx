@@ -12,6 +12,7 @@ const companyName = "Queer Aquarian";
 export default function Header() {
   const theme = useTheme();
   const logoStyle = {
+    margin: "1.25rem",
     borderRadius: "50%",
   };
 
@@ -42,7 +43,6 @@ export default function Header() {
               ></MobileDrawer>
             </Box>
             <Image
-              className="m-5"
               src="/luna.jpeg"
               alt="Luna"
               width={80}
@@ -63,6 +63,12 @@ export default function Header() {
               className="flex items-center m-10 text-xl uppercase"
             >
               home
+            </Link>
+            <Link
+              href="/instagram"
+              className="flex items-center m-10 text-xl uppercase"
+            >
+              instagram
             </Link>
             <Link
               href="/clobs"
