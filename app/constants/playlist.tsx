@@ -97,7 +97,17 @@ export const Playlist: Song[] = [
     album: "Loossemble",
   },
   {
+    title: "Real world",
+    artist: "Loossemble",
+    album: "Loossemble",
+  },
+  {
     title: "Colouring",
+    artist: "Loossemble",
+    album: "Loossemble",
+  },
+  {
+    title: "Newtopia",
     artist: "Loossemble",
     album: "Loossemble",
   },
@@ -142,7 +152,42 @@ export const Playlist: Song[] = [
     album: "NewJeans 'OMG'",
   },
   {
+    title: "Hype Boy",
+    artist: "NewJeans",
+    album: "NewJeans 1st EP 'New Jeans'",
+  },
+  {
+    title: "Hurt",
+    artist: "NewJeans",
+    album: "NewJeans 1st EP 'New Jeans'",
+  },
+  {
+    title: "Yeah Yeah Yeah",
+    artist: "BLACKPINK",
+    album: "Kill This Love",
+  },
+  {
+    title: "Tally",
+    artist: "BLACKPINK",
+    album: "Kill This Love",
+  },
+  {
+    title: "Ready For Love",
+    artist: "BLACKPINK",
+    album: "Kill This Love",
+  },
+  {
     title: "Don't Know What To Do",
+    artist: "BLACKPINK",
+    album: "Kill This Love",
+  },
+  {
+    title: "Kick It",
+    artist: "BLACKPINK",
+    album: "Kill This Love",
+  },
+  {
+    title: "Hope Not",
     artist: "BLACKPINK",
     album: "Kill This Love",
   },
@@ -152,7 +197,17 @@ export const Playlist: Song[] = [
     album: "Feel Special",
   },
   {
+    title: "Talk That Talk",
+    artist: "TWICE",
+    album: "BETWEEN 1&2",
+  },
+  {
     title: "Basics",
+    artist: "TWICE",
+    album: "BETWEEN 1&2",
+  },
+  {
+    title: "Gone",
     artist: "TWICE",
     album: "BETWEEN 1&2",
   },
@@ -170,5 +225,85 @@ export const Playlist: Song[] = [
     title: "#menow",
     artist: "fromis_9",
     album: "Unlock My World",
+  },
+  {
+    title: "Anywhere But Home",
+    artist: "SEULGI",
+    album: "28 Reasons - The 1st Mini Album",
+  },
+  {
+    title: "Crown",
+    artist: "SEULGI",
+    album: "28 Reasons - The 1st Mini Album",
+  },
+  {
+    title: "When This Rain Stops",
+    artist: "WENDY",
+    album: "Like Water - The 1st Mini Album",
+  },
+  {
+    title: "Like Water",
+    artist: "WENDY",
+    album: "Like Water - The 1st Mini Album",
+  },
+  {
+    title: "Best Friend (with SEULGI)",
+    artist: "WENDY",
+    album: "Like Water - The 1st Mini Album",
+  },
+  {
+    title: "Killin' Me Good",
+    artist: "JIHYO",
+    album: "ZONE",
+  },
+  {
+    title: "Talkin' About It (feat. 24kGoldn)",
+    artist: "JIHYO",
+    album: "ZONE",
+  },
+  {
+    title: "POP!",
+    artist: "NAYEON",
+    album: "IM NAYEON",
+  },
+  {
+    title: "NO PROBLEM (feat. Felix of Stray Kids)",
+    artist: "NAYEON",
+    album: "IM NAYEON",
+  },
+  {
+    title: "LOVE COUNTDOWN (feat. Wonstein)",
+    artist: "NAYEON",
+    album: "IM NAYEON",
+  },
+  {
+    title: "SUNSET",
+    artist: "NAYEON",
+    album: "IM NAYEON",
+  },
+  {
+    title: "INVU",
+    artist: "TAEYEON",
+    album: "INVU - The 3rd Album",
+  },
+  {
+    title: "Dear Me",
+    artist: "TAEYEON",
+    album: "Purpose - The 2nd Album",
+  },
+  {
+    title: "Drawing Our Moments",
+    artist: "TAEYEON",
+    album: "Purpose - The 2nd Album",
+  },
+  {
+    title: "Gravity",
+    artist: "TAEYEON",
+    album: "Purpose - The 2nd Album",
+  },
+  {
+    title: "Blue",
+    artist: "TAEYEON",
+    album: "Four Seasons",
   },
 ];
