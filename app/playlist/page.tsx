@@ -1,7 +1,8 @@
 import { Box, Typography } from "@mui/material";
 import Header from "../components/header";
+import PlaylistTable from "../components/playlist-table";
 
-export default function Playlist() {
+export default function FavouritesPlaylist() {
   return (
     <main className="min-h-screen w-screen">
       <Header></Header>
@@ -10,6 +11,7 @@ export default function Playlist() {
           <Typography variant="h3">
             Playlist
           </Typography>
+          <PlaylistTable></PlaylistTable>
         </Box>
       </Box>
     </main>
