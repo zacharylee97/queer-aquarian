@@ -31,6 +31,12 @@ export default function MobileDrawer({
           instagram
         </Link>
         <Link
+          href="/playlist"
+          className="flex items-center m-10 text-xl uppercase"
+        >
+          playlist
+        </Link>
+        <Link
           href="/clobs"
           className="flex items-center m-10 text-xl uppercase"
         >
