@@ -65,22 +65,16 @@ export default function Header() {
               home
             </Link>
             <Link
-              href="/instagram"
+              href="/clobs"
               className="flex items-center m-10 text-xl uppercase"
             >
-              instagram
+              clobs
             </Link>
             <Link
               href="/playlist"
               className="flex items-center m-10 text-xl uppercase"
             >
               playlist
-            </Link>
-            <Link
-              href="/clobs"
-              className="flex items-center m-10 text-xl uppercase"
-            >
-              clobs
             </Link>
           </Box>
         </Toolbar>
