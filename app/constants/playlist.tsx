@@ -42,6 +42,21 @@ export const Playlist: Song[] = [
     album: "The 4th Mini Album 'VERSUS'",
   },
   {
+    title: "Overflow",
+    artist: "VIVIZ",
+    album: "The 4th Mini Album 'VERSUS'",
+  },
+  {
+    title: "Day by day",
+    artist: "VIVIZ",
+    album: "The 4th Mini Album 'VERSUS'",
+  },
+  {
+    title: "Up 2 Me",
+    artist: "VIVIZ",
+    album: "The 4th Mini Album 'VERSUS'",
+  },
+  {
     title: "Chill Kill",
     artist: "Red Velvet",
     album: "Chill Kill - The 3rd Album",
@@ -132,12 +147,37 @@ export const Playlist: Song[] = [
     album: "Single",
   },
   {
-    title: "ASAP",
+    title: "Our Night is more beautiful than your Day",
+    artist: "NewJeans",
+    album: "Single",
+  },
+  {
+    title: "New Jeans",
+    artist: "NewJeans",
+    album: "NewJeans 2nd EP 'Get Up'",
+  },
+  {
+    title: "Super Shy",
+    artist: "NewJeans",
+    album: "NewJeans 2nd EP 'Get Up'",
+  },
+  {
+    title: "ETA",
     artist: "NewJeans",
     album: "NewJeans 2nd EP 'Get Up'",
   },
   {
     title: "Cool With You",
+    artist: "NewJeans",
+    album: "NewJeans 2nd EP 'Get Up'",
+  },
+  {
+    title: "Get Up",
+    artist: "NewJeans",
+    album: "NewJeans 2nd EP 'Get Up'",
+  },
+  {
+    title: "ASAP",
     artist: "NewJeans",
     album: "NewJeans 2nd EP 'Get Up'",
   },
@@ -305,5 +345,205 @@ export const Playlist: Song[] = [
     title: "Blue",
     artist: "TAEYEON",
     album: "Four Seasons",
+  },
+  {
+    title: "Blank Space (Taylor's Version)",
+    artist: "Taylor Swift",
+    album: "1989 (Taylor's Version)",
+  },
+  {
+    title: "Style (Taylor's Version)",
+    artist: "Taylor Swift",
+    album: "1989 (Taylor's Version)",
+  },
+  {
+    title: "Out Of The Woods (Taylor's Version)",
+    artist: "Taylor Swift",
+    album: "1989 (Taylor's Version)",
+  },
+  {
+    title: "All You Had To Do Was Stay (Taylor's Version)",
+    artist: "Taylor Swift",
+    album: "1989 (Taylor's Version)",
+  },
+  {
+    title: "Shake It Off (Taylor's Version)",
+    artist: "Taylor Swift",
+    album: "1989 (Taylor's Version)",
+  },
+  {
+    title: "I Wish You Would (Taylor's Version)",
+    artist: "Taylor Swift",
+    album: "1989 (Taylor's Version)",
+  },
+  {
+    title: "Bad Blood (Taylor's Version)",
+    artist: "Taylor Swift",
+    album: "1989 (Taylor's Version)",
+  },
+  {
+    title: "Wildest Dreams (Taylor's Version)",
+    artist: "Taylor Swift",
+    album: "1989 (Taylor's Version)",
+  },
+  {
+    title: "How You Get The Girl (Taylor's Version)",
+    artist: "Taylor Swift",
+    album: "1989 (Taylor's Version)",
+  },
+  {
+    title: "This Love (Taylor's Version)",
+    artist: "Taylor Swift",
+    album: "1989 (Taylor's Version)",
+  },
+  {
+    title: "I Know Places (Taylor's Version)",
+    artist: "Taylor Swift",
+    album: "1989 (Taylor's Version)",
+  },
+  {
+    title: "Clean (Taylor's Version)",
+    artist: "Taylor Swift",
+    album: "1989 (Taylor's Version)",
+  },
+  {
+    title: "Wonderland (Taylor's Version)",
+    artist: "Taylor Swift",
+    album: "1989 (Taylor's Version)",
+  },
+  {
+    title: "You Are In Love (Taylor's Version)",
+    artist: "Taylor Swift",
+    album: "1989 (Taylor's Version)",
+  },
+  {
+    title: "New Romantics (Taylor's Version)",
+    artist: "Taylor Swift",
+    album: "1989 (Taylor's Version)",
+  },
+  {
+    title: `"Slut!" (Taylor's Version) (From The Vault)`,
+    artist: "Taylor Swift",
+    album: "1989 (Taylor's Version)",
+  },
+  {
+    title: "Say Don't Go (Taylor's Version) (From The Vault)",
+    artist: "Taylor Swift",
+    album: "1989 (Taylor's Version)",
+  },
+  {
+    title: "Now That We Don't Talk (Taylor's Version) (From The Vault)",
+    artist: "Taylor Swift",
+    album: "1989 (Taylor's Version)",
+  },
+  {
+    title: "Suburban Legends (Taylor's Version) (From The Vault)",
+    artist: "Taylor Swift",
+    album: "1989 (Taylor's Version)",
+  },
+  {
+    title: "Is It Over Now? (Taylor's Version) (From The Vault)",
+    artist: "Taylor Swift",
+    album: "1989 (Taylor's Version)",
+  },
+  {
+    title: "Lavender Haze",
+    artist: "Taylor Swift",
+    album: "Midnights",
+  },
+  {
+    title: "Maroon",
+    artist: "Taylor Swift",
+    album: "Midnights",
+  },
+  {
+    title: "Anti-Hero",
+    artist: "Taylor Swift",
+    album: "Midnights",
+  },
+  {
+    title: "Snow On The Beach (feat. Lana Del Rey)",
+    artist: "Taylor Swift",
+    album: "Midnights",
+  },
+  {
+    title: "You're On Your Own Kid",
+    artist: "Taylor Swift",
+    album: "Midnights",
+  },
+  {
+    title: "Midnight Rain",
+    artist: "Taylor Swift",
+    album: "Midnights",
+  },
+  {
+    title: "Question...?",
+    artist: "Taylor Swift",
+    album: "Midnights",
+  },
+  {
+    title: "Vigilante Shit",
+    artist: "Taylor Swift",
+    album: "Midnights",
+  },
+  {
+    title: "Bejeweled",
+    artist: "Taylor Swift",
+    album: "Midnights",
+  },
+  {
+    title: "Labyrinth",
+    artist: "Taylor Swift",
+    album: "Midnights",
+  },
+  {
+    title: "Karma",
+    artist: "Taylor Swift",
+    album: "Midnights",
+  },
+  {
+    title: "Sweet Nothing",
+    artist: "Taylor Swift",
+    album: "Midnights",
+  },
+  {
+    title: "Mastermind",
+    artist: "Taylor Swift",
+    album: "Midnights",
+  },
+  {
+    title: "Paris",
+    artist: "Taylor Swift",
+    album: "Midnights",
+  },
+  {
+    title: "High Infidelity",
+    artist: "Taylor Swift",
+    album: "Midnights",
+  },
+  {
+    title: "Glitch",
+    artist: "Taylor Swift",
+    album: "Midnights",
+  },
+  {
+    title: "Would've Could've Should've",
+    artist: "Taylor Swift",
+    album: "Midnights",
+  },
+  {
+    title: "Dear Reader",
+    artist: "Taylor Swift",
+    album: "Midnights",
+  },
+  {
+    title: "Hits Different",
+    artist: "Taylor Swift",
+    album: "Midnights",
+  },
+  {
+    title: "You're Losing Me",
+    artist: "Taylor Swift",
+    album: "Midnights",
   },
 ];
