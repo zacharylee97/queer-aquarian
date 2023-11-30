@@ -1,4 +1,4 @@
-import { Box } from "@mui/material";
+import { Box, Typography } from "@mui/material";
 import Image from "next/image";
 
 export default function HongKong2023() {
@@ -10,6 +10,7 @@ export default function HongKong2023() {
         width={500}
         height={500}
       />
+      <Typography variant="h5">More to come, stay tuned!</Typography>
     </Box>
   );
 }
