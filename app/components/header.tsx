@@ -21,10 +21,7 @@ export default function Header() {
   return (
     <Box>
       <AppBar position="fixed" sx={{ zIndex: theme.zIndex.drawer + 1 }}>
-        <Toolbar
-          disableGutters
-          sx={{ display: "flex" }}
-        >
+        <Toolbar disableGutters sx={{ display: "flex" }}>
           <Box sx={{ display: "flex", alignItems: "center" }}>
             <Box sx={{ display: { xs: "flex", md: "none" } }}>
               <IconButton
@@ -58,10 +55,7 @@ export default function Header() {
             </Box>
           </Box>
           <Box sx={{ display: { xs: "none", md: "flex" } }}>
-            <Link
-              href="/"
-              className="flex items-center m-10 text-xl uppercase"
-            >
+            <Link href="/" className="flex items-center m-10 text-xl uppercase">
               home
             </Link>
             <Link
@@ -69,6 +63,12 @@ export default function Header() {
               className="flex items-center m-10 text-xl uppercase"
             >
               clobs
+            </Link>
+            <Link
+              href="/food-and-travel"
+              className="flex items-center m-10 text-xl uppercase"
+            >
+              Food & Travel
             </Link>
             <Link
               href="/playlist"
