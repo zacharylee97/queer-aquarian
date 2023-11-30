@@ -8,16 +8,17 @@ export default function Clobs() {
       <Header></Header>
       <Box className="flex flex-col mt-28">
         <Typography className="m-10 mb-3" variant="h3">
-          CLOBS Preview
+          CLOBS
         </Typography>
-        <Box>
+        <Box className="m-10">
           <Image
-            className="m-5"
+            className="mb-5"
             src="/CLOBS.png"
             alt="CLOBS"
             width={500}
             height={500}
           />
+          <Typography variant="h5">More to come, stay tuned!</Typography>
         </Box>
       </Box>
     </main>
