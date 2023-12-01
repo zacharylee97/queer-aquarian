@@ -31,13 +31,7 @@ export default function MobileDrawer({
           href="/food-and-travel"
           className="flex items-center m-10 text-xl uppercase"
         >
-          Food & Travel
-        </Link>
-        <Link
-          href="/playlist"
-          className="flex items-center m-10 text-xl uppercase"
-        >
-          playlist
+          food & travel
         </Link>
       </Box>
     </Drawer>
