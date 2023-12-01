@@ -5,8 +5,8 @@ import MusicPlayer from "./components/music-player";
 
 export default function Home() {
   const sloganStyle = {
-    width: "calc(100% - 2.5rem)",
-    margin: "1.25rem"
+    width: "calc(100% - 5rem)",
+    margin: "2.5rem",
   };
 
   return (
@@ -28,17 +28,15 @@ export default function Home() {
           width={500}
           height={500}
         />
-        <Typography className="mt-10 mx-20" variant="h4">
-          Queer Aquarian is my personal blog where I can post whatever I want.
-          It started out as an art and photography{" "}
+        <Typography className="mt-10 mx-20">
+          {`Queer Aquarian is my personal blog where I can post whatever I want.
+          It started out as an art and photography `}
           <a href="https://www.instagram.com/queer_aquarian">
-            <u>
-              Instagram
-            </u>
+            <u>Instagram</u>
           </a>
-          {" "}account, but I wanted a place to share my other passions as well, including
+          {` account, but I wanted a place to share my other passions as well, including
           food, music and poetry. I hope you enjoy and remember, life is short, so
-          make the most of it!
+          make the most of it!`}
         </Typography>
       </Box>
     </main>
