@@ -10,6 +10,7 @@ export default function MobileDrawer({
     <Drawer
       sx={{
         [`& .MuiDrawer-paper`]: {
+          backgroundColor: "black",
           marginTop: "7rem",
         },
       }}
