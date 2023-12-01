@@ -5,8 +5,8 @@ export default function HongKong2023() {
   return (
     <Box>
       <Image
-        src="/hong-kong-1.png"
-        alt="Hong Kong 1"
+        src="/hong-kong-2023-1.png"
+        alt="Hong Kong 2023 Page 1"
         width={500}
         height={500}
       />
