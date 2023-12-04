@@ -19,19 +19,13 @@ export default function MobileDrawer({
       onClose={() => setDrawerState(false)}
     >
       <Box>
-        <Link href="/" className="flex items-center m-10 text-xl uppercase">
+        <Link href="/" className="mobile-link">
           home
         </Link>
-        <Link
-          href="/clobs"
-          className="flex items-center m-10 text-xl uppercase"
-        >
+        <Link href="/clobs" className="mobile-link">
           clobs
         </Link>
-        <Link
-          href="/food-and-travel"
-          className="flex items-center m-10 text-xl uppercase"
-        >
+        <Link href="/food-and-travel" className="mobile-link">
           food & travel
         </Link>
       </Box>
