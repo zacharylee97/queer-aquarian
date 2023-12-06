@@ -34,6 +34,12 @@ export default function HongKong2023() {
         width={500}
         height={500}
       />
+      <Image
+        src="/HK2023/HK2023pg6.png"
+        alt="HK 2023 Page 6"
+        width={500}
+        height={500}
+      />
       <Typography variant="h5">More to come, stay tuned!</Typography>
     </Box>
   );
