@@ -59,16 +59,16 @@ export default function Header() {
               home
             </Link>
             <Link
-              href="/clobs"
-              className="flex items-center m-10 text-xl uppercase"
-            >
-              clobs
-            </Link>
-            <Link
               href="/food-and-travel"
               className="flex items-center m-10 text-xl uppercase"
             >
               food & travel
+            </Link>
+            <Link
+              href="/clobs"
+              className="flex items-center m-10 text-xl uppercase"
+            >
+              clobs
             </Link>
           </Box>
         </Toolbar>
