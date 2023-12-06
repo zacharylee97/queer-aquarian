@@ -10,10 +10,10 @@ export default function Clobs() {
         <Typography className="m-10 mb-3" variant="h3">
           CLOBS
         </Typography>
-        <Box className="m-10">
+        <Box className="mx-10">
           <Image
             className="mb-5"
-            src="/CLOBS.png"
+            src="/clobs.png"
             alt="CLOBS"
             width={500}
             height={500}
