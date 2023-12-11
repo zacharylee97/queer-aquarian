@@ -12,6 +12,26 @@ export const Playlist: Song[] = [
     album: "Drama - The 4th Mini Album",
   },
   {
+    title: "I'm Unhappy",
+    artist: "aespa",
+    album: "MY WORLD - The 3rd Mini Album",
+  },
+  {
+    title: "Thirsty",
+    artist: "aespa",
+    album: "MY WORLD - The 3rd Mini Album",
+  },
+  {
+    title: "Better Things",
+    artist: "aespa",
+    album: "Single",
+  },
+  {
+    title: "Hold On Tight",
+    artist: "aespa",
+    album: "Single",
+  },
+  {
     title: "Air Force One",
     artist: "Odd Eye Circle",
     album: "Version Up",
@@ -287,6 +307,11 @@ export const Playlist: Song[] = [
     album: "Like Water - The 1st Mini Album",
   },
   {
+    title: "The Road",
+    artist: "WENDY",
+    album: "Like Water - The 1st Mini Album",
+  },
+  {
     title: "Best Friend (with SEULGI)",
     artist: "WENDY",
     album: "Like Water - The 1st Mini Album",
@@ -545,5 +570,540 @@ export const Playlist: Song[] = [
     title: "You're Losing Me",
     artist: "Taylor Swift",
     album: "Midnights",
+  },
+  {
+    title: "So Special",
+    artist: "MUNA",
+    album: "About U",
+  },
+  {
+    title: "Loudspeaker",
+    artist: "MUNA",
+    album: "About U",
+  },
+  {
+    title: "I Know A Place",
+    artist: "MUNA",
+    album: "About U",
+  },
+  {
+    title: "Winterbreak",
+    artist: "MUNA",
+    album: "About U",
+  },
+  {
+    title: "Around U",
+    artist: "MUNA",
+    album: "About U",
+  },
+  {
+    title: "End of Desire",
+    artist: "MUNA",
+    album: "About U",
+  },
+  {
+    title: "Everything",
+    artist: "MUNA",
+    album: "About U",
+  },
+  {
+    title: "Outro",
+    artist: "MUNA",
+    album: "About U",
+  },
+  {
+    title: "Stayaway",
+    artist: "MUNA",
+    album: "Saves The World",
+  },
+  {
+    title: "Who",
+    artist: "MUNA",
+    album: "Saves The World",
+  },
+  {
+    title: "Navy Blue",
+    artist: "MUNA",
+    album: "Saves The World",
+  },
+  {
+    title: "Pink Light",
+    artist: "MUNA",
+    album: "Saves The World",
+  },
+  {
+    title: "Taken",
+    artist: "MUNA",
+    album: "Saves The World",
+  },
+  {
+    title: "Good News (Ya-Ya Song)",
+    artist: "MUNA",
+    album: "Saves The World",
+  },
+  {
+    title: "Memento",
+    artist: "MUNA",
+    album: "Saves The World",
+  },
+  {
+    title: "It's Gonna Be Okay, Baby",
+    artist: "MUNA",
+    album: "Saves The World",
+  },
+  {
+    title: "What I Want",
+    artist: "MUNA",
+    album: "MUNA",
+  },
+  {
+    title: "Home By Now",
+    artist: "MUNA",
+    album: "MUNA",
+  },
+  {
+    title: "Kind Of Girl",
+    artist: "MUNA",
+    album: "MUNA",
+  },
+  {
+    title: "Loose Garment",
+    artist: "MUNA",
+    album: "MUNA",
+  },
+  {
+    title: "Shooting Star",
+    artist: "MUNA",
+    album: "MUNA",
+  },
+  {
+    title: "Tennis Court",
+    artist: "Lorde",
+    album: "Pure Heroine",
+  },
+  {
+    title: "400 Lux",
+    artist: "Lorde",
+    album: "Pure Heroine",
+  },
+  {
+    title: "Royals",
+    artist: "Lorde",
+    album: "Pure Heroine",
+  },
+  {
+    title: "Ribs",
+    artist: "Lorde",
+    album: "Pure Heroine",
+  },
+  {
+    title: "Buzzcut Season",
+    artist: "Lorde",
+    album: "Pure Heroine",
+  },
+  {
+    title: "Team",
+    artist: "Lorde",
+    album: "Pure Heroine",
+  },
+  {
+    title: "White Teeth Teens",
+    artist: "Lorde",
+    album: "Pure Heroine",
+  },
+  {
+    title: "A World Alone",
+    artist: "Lorde",
+    album: "Pure Heroine",
+  },
+  {
+    title: "No Better",
+    artist: "Lorde",
+    album: "Pure Heroine",
+  },
+  {
+    title: "Bravado",
+    artist: "Lorde",
+    album: "Pure Heroine",
+  },
+  {
+    title: "Million Dollar Bills",
+    artist: "Lorde",
+    album: "Pure Heroine",
+  },
+  {
+    title: "The Love Club",
+    artist: "Lorde",
+    album: "Pure Heroine",
+  },
+  {
+    title: "Biting Down",
+    artist: "Lorde",
+    album: "Pure Heroine",
+  },
+  {
+    title: "Green Light",
+    artist: "Lorde",
+    album: "Melodrama",
+  },
+  {
+    title: "Sober",
+    artist: "Lorde",
+    album: "Melodrama",
+  },
+  {
+    title: "Homemade Dynamite",
+    artist: "Lorde",
+    album: "Melodrama",
+  },
+  {
+    title: "The Louvre",
+    artist: "Lorde",
+    album: "Melodrama",
+  },
+  {
+    title: "Liability",
+    artist: "Lorde",
+    album: "Melodrama",
+  },
+  {
+    title: "Hard Feelings / Loveless",
+    artist: "Lorde",
+    album: "Melodrama",
+  },
+  {
+    title: "Sober II (Melodrama)",
+    artist: "Lorde",
+    album: "Melodrama",
+  },
+  {
+    title: "Supercut",
+    artist: "Lorde",
+    album: "Melodrama",
+  },
+  {
+    title: "Liability (Reprise)",
+    artist: "Lorde",
+    album: "Melodrama",
+  },
+  {
+    title: "Perfect Places",
+    artist: "Lorde",
+    album: "Melodrama",
+  },
+  {
+    title: "Stoned at the Nail Salon",
+    artist: "Lorde",
+    album: "Solar Power",
+  },
+  {
+    title: "Fallen Fruit",
+    artist: "Lorde",
+    album: "Solar Power",
+  },
+  {
+    title: "Secrets from a Girl (Who's Seen it All)",
+    artist: "Lorde",
+    album: "Solar Power",
+  },
+  {
+    title: "Dominoes",
+    artist: "Lorde",
+    album: "Solar Power",
+  },
+  {
+    title: "Big Star",
+    artist: "Lorde",
+    album: "Solar Power",
+  },
+  {
+    title: "Mood Ring",
+    artist: "Lorde",
+    album: "Solar Power",
+  },
+  {
+    title: "Oceanic Feeling",
+    artist: "Lorde",
+    album: "Solar Power",
+  },
+  {
+    title: "Helen of Troy",
+    artist: "Lorde",
+    album: "Solar Power",
+  },
+  {
+    title: "Hold No Grudge",
+    artist: "Lorde",
+    album: "Solar Power",
+  },
+  {
+    title: "Is There Somewhere",
+    artist: "Halsey",
+    album: "Room 93 - EP",
+  },
+  {
+    title: "Castle",
+    artist: "Halsey",
+    album: "BADLANDS",
+  },
+  {
+    title: "Hold Me Down",
+    artist: "Halsey",
+    album: "BADLANDS",
+  },
+  {
+    title: "New Americana",
+    artist: "Halsey",
+    album: "BADLANDS",
+  },
+  {
+    title: "Drive",
+    artist: "Halsey",
+    album: "BADLANDS",
+  },
+  {
+    title: "Hurricane",
+    artist: "Halsey",
+    album: "BADLANDS",
+  },
+  {
+    title: "Roman Holiday",
+    artist: "Halsey",
+    album: "BADLANDS",
+  },
+  {
+    title: "Ghost",
+    artist: "Halsey",
+    album: "BADLANDS",
+  },
+  {
+    title: "Colors",
+    artist: "Halsey",
+    album: "BADLANDS",
+  },
+  {
+    title: "100 Letters",
+    artist: "Halsey",
+    album: "hopeless fountain kingdom",
+  },
+  {
+    title: "Alone",
+    artist: "Halsey",
+    album: "hopeless fountain kingdom",
+  },
+  {
+    title: "Now Or Never",
+    artist: "Halsey",
+    album: "hopeless fountain kingdom",
+  },
+  {
+    title: "Sorry",
+    artist: "Halsey",
+    album: "hopeless fountain kingdom",
+  },
+  {
+    title: "Walls Could Talk",
+    artist: "Halsey",
+    album: "hopeless fountain kingdom",
+  },
+  {
+    title: "Hopeless (feat. Cashmere Cat)",
+    artist: "Halsey",
+    album: "hopeless fountain kingdom",
+  },
+  {
+    title: "Graveyard",
+    artist: "Halsey",
+    album: "Manic",
+  },
+  {
+    title: "You should be sad",
+    artist: "Halsey",
+    album: "Manic",
+  },
+  {
+    title: "Forever ... (is a long time)",
+    artist: "Halsey",
+    album: "Manic",
+  },
+  {
+    title: "I HATE EVERYBODY",
+    artist: "Halsey",
+    album: "Manic",
+  },
+  {
+    title: "Without Me",
+    artist: "Halsey",
+    album: "Manic",
+  },
+  {
+    title: "Finally // beautiful stranger",
+    artist: "Halsey",
+    album: "Manic",
+  },
+  {
+    title: "killing boys",
+    artist: "Halsey",
+    album: "Manic",
+  },
+  {
+    title: "wipe your tears",
+    artist: "Halsey",
+    album: "Manic",
+  },
+  {
+    title: "I'm Not Mad",
+    artist: "Halsey",
+    album: "Manic",
+  },
+  {
+    title: "Belles In Santa Fe",
+    artist: "Halsey",
+    album: "If I Can't Have Love, I Want Power",
+  },
+  {
+    title: "Easier than Lying",
+    artist: "Halsey",
+    album: "If I Can't Have Love, I Want Power",
+  },
+  {
+    title: "You asked for this",
+    artist: "Halsey",
+    album: "If I Can't Have Love, I Want Power",
+  },
+  {
+    title: "1121",
+    artist: "Halsey",
+    album: "If I Can't Have Love, I Want Power",
+  },
+  {
+    title: "honey",
+    artist: "Halsey",
+    album: "If I Can't Have Love, I Want Power",
+  },
+  {
+    title: "Ya'aburnee",
+    artist: "Halsey",
+    album: "If I Can't Have Love, I Want Power",
+  },
+  {
+    title: "So Good",
+    artist: "Halsey",
+    album: "Single",
+  },
+  {
+    title: "Be Kind (with Halsey)",
+    artist: "Marshmello",
+    album: "Single",
+  },
+  {
+    title: "In My Head",
+    artist: "Fareoh",
+    album: "Single",
+  },
+  {
+    title: "Run Away",
+    artist: "Fareoh",
+    album: "Single",
+  },
+  {
+    title: "iPad",
+    artist: "The Chainsmokers",
+    album: "So Far So Good",
+  },
+  {
+    title: "Howl",
+    artist: "CHUU",
+    album: "Howl",
+  },
+  {
+    title: "Underwater",
+    artist: "CHUU",
+    album: "Howl",
+  },
+  {
+    title: "My Palace",
+    artist: "CHUU",
+    album: "Howl",
+  },
+  {
+    title: "Aliens",
+    artist: "CHUU",
+    album: "Howl",
+  },
+  {
+    title: "Hitchhiker",
+    artist: "CHUU",
+    album: "Howl",
+  },
+  {
+    title: "Video Game",
+    artist: "Heejin",
+    album: "K",
+  },
+  {
+    title: "traitor",
+    artist: "Olivia Rodrigo",
+    album: "SOUR",
+  },
+  {
+    title: "drivers license",
+    artist: "Olivia Rodrigo",
+    album: "SOUR",
+  },
+  {
+    title: "deja vu",
+    artist: "Olivia Rodrigo",
+    album: "SOUR",
+  },
+  {
+    title: "good 4 u",
+    artist: "Olivia Rodrigo",
+    album: "SOUR",
+  },
+  {
+    title: "favorite crime",
+    artist: "Olivia Rodrigo",
+    album: "SOUR",
+  },
+  {
+    title: "vampire",
+    artist: "Olivia Rodrigo",
+    album: "GUTS",
+  },
+  {
+    title: "ballad of a homeschooled girl",
+    artist: "Olivia Rodrigo",
+    album: "GUTS",
+  },
+  {
+    title: "making the bed",
+    artist: "Olivia Rodrigo",
+    album: "GUTS",
+  },
+  {
+    title: "logical",
+    artist: "Olivia Rodrigo",
+    album: "GUTS",
+  },
+  {
+    title: "get him back!",
+    artist: "Olivia Rodrigo",
+    album: "GUTS",
+  },
+  {
+    title: "love is embarrasing",
+    artist: "Olivia Rodrigo",
+    album: "GUTS",
+  },
+  {
+    title: "the grudge",
+    artist: "Olivia Rodrigo",
+    album: "GUTS",
+  },
+  {
+    title: "teenage dream",
+    artist: "Olivia Rodrigo",
+    album: "GUTS",
   },
 ];
