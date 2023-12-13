@@ -12,12 +12,32 @@ export const Playlist: Song[] = [
     album: "Drama - The 4th Mini Album",
   },
   {
+    title: "Trick or Trick",
+    artist: "aespa",
+    album: "Drama - The 4th Mini Album",
+  },
+  {
+    title: "YOLO",
+    artist: "aespa",
+    album: "Drama - The 4th Mini Album",
+  },
+  {
+    title: "You",
+    artist: "aespa",
+    album: "Drama - The 4th Mini Album",
+  },
+  {
     title: "I'm Unhappy",
     artist: "aespa",
     album: "MY WORLD - The 3rd Mini Album",
   },
   {
     title: "Thirsty",
+    artist: "aespa",
+    album: "MY WORLD - The 3rd Mini Album",
+  },
+  {
+    title: "'Til We Meet Again'",
     artist: "aespa",
     album: "MY WORLD - The 3rd Mini Album",
   },
@@ -223,6 +243,11 @@ export const Playlist: Song[] = [
   },
   {
     title: "Yeah Yeah Yeah",
+    artist: "BLACKPINK",
+    album: "Kill This Love",
+  },
+  {
+    title: "Hard To Love",
     artist: "BLACKPINK",
     album: "Kill This Love",
   },
