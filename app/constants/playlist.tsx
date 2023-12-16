@@ -27,17 +27,17 @@ export const Playlist: Song[] = [
     album: "Drama - The 4th Mini Album",
   },
   {
-    title: "I'm Unhappy",
-    artist: "aespa",
-    album: "MY WORLD - The 3rd Mini Album",
-  },
-  {
     title: "Thirsty",
     artist: "aespa",
     album: "MY WORLD - The 3rd Mini Album",
   },
   {
-    title: "'Til We Meet Again'",
+    title: "I'm Unhappy",
+    artist: "aespa",
+    album: "MY WORLD - The 3rd Mini Album",
+  },
+  {
+    title: "'Til We Meet Again",
     artist: "aespa",
     album: "MY WORLD - The 3rd Mini Album",
   },
@@ -1130,5 +1130,165 @@ export const Playlist: Song[] = [
     title: "teenage dream",
     artist: "Olivia Rodrigo",
     album: "GUTS",
+  },
+  {
+    title: "Used To Be Young",
+    artist: "Miley Cyrus",
+    album: "Endless Summer Vacation",
+  },
+  {
+    title: "Minor Feelings",
+    artist: "Rina Sawayama",
+    album: "Hold The Girl",
+  },
+  {
+    title: "Hold The Girl",
+    artist: "Rina Sawayama",
+    album: "Hold The Girl",
+  },
+  {
+    title: "Catch Me In The Air",
+    artist: "Rina Sawayama",
+    album: "Hold The Girl",
+  },
+  {
+    title: "Forgiveness",
+    artist: "Rina Sawayama",
+    album: "Hold The Girl",
+  },
+  {
+    title: "Holy (Til You Let Me Go)",
+    artist: "Rina Sawayama",
+    album: "Hold The Girl",
+  },
+  {
+    title: "Your Age",
+    artist: "Rina Sawayama",
+    album: "Hold The Girl",
+  },
+  {
+    title: "Imagining",
+    artist: "Rina Sawayama",
+    album: "Hold The Girl",
+  },
+  {
+    title: "Frankenstein",
+    artist: "Rina Sawayama",
+    album: "Hold The Girl",
+  },
+  {
+    title: "Hurricanes",
+    artist: "Rina Sawayama",
+    album: "Hold The Girl",
+  },
+  {
+    title: "Send My Love To John",
+    artist: "Rina Sawayama",
+    album: "Hold The Girl",
+  },
+  {
+    title: "To Be Alive",
+    artist: "Rina Sawayama",
+    album: "Hold The Girl",
+  },
+  {
+    title: "To Be Alive",
+    artist: "Rina Sawayama",
+    album: "Sawayama",
+  },
+  {
+    title: "Cherry (Piano Version)",
+    artist: "Rina Sawayama",
+    album: "Single",
+  },
+  {
+    title: "Kamikaze",
+    artist: "Carly Rae Jepsen",
+    album: "The Loveliest Time",
+  },
+  {
+    title: "Kollage",
+    artist: "Carly Rae Jepsen",
+    album: "The Loveliest Time",
+  },
+  {
+    title: "Psychedelic Switch",
+    artist: "Carly Rae Jepsen",
+    album: "The Loveliest Time",
+  },
+  {
+    title: "Talking To Yourself",
+    artist: "Carly Rae Jepsen",
+    album: "The Loneliest Time",
+  },
+  {
+    title: "Sideways",
+    artist: "Carly Rae Jepsen",
+    album: "The Loneliest Time",
+  },
+  {
+    title: "Bends",
+    artist: "Carly Rae Jepsen",
+    album: "The Loneliest Time",
+  },
+  {
+    title: "Bad Thing Twice",
+    artist: "Carly Rae Jepsen",
+    album: "The Loneliest Time",
+  },
+  {
+    title: "Go Find Yourself Or Whatever",
+    artist: "Carly Rae Jepsen",
+    album: "The Loneliest Time",
+  },
+  {
+    title: "The Loneliest Time (feat. Rufus Wainwright)",
+    artist: "Carly Rae Jepsen",
+    album: "The Loneliest Time",
+  },
+  {
+    title: "Anxious",
+    artist: "Carly Rae Jepsen",
+    album: "The Loneliest Time",
+  },
+  {
+    title: "No Thinking Over The Weekend",
+    artist: "Carly Rae Jepsen",
+    album: "The Loneliest Time",
+  },
+  {
+    title: "Now That I Found You",
+    artist: "Carly Rae Jepsen",
+    album: "Dedicated",
+  },
+  {
+    title: "Real Love",
+    artist: "Carly Rae Jepsen",
+    album: "Dedicated",
+  },
+  {
+    title: "For Sure",
+    artist: "Carly Rae Jepsen",
+    album: "Dedicated",
+  },
+  {
+    title: "This Love Isn't Crazy",
+    artist: "Carly Rae Jepsen",
+    album: "Dedicated Side B",
+  },
+  {
+    title: "Run Away With Me",
+    artist: "Carly Rae Jepsen",
+    album: "E•MO•TION",
+  },
+  {
+    title: "Never Get To Hold You",
+    artist: "Carly Rae Jepsen",
+    album: "E•MO•TION",
+  },
+  {
+    title: "Cherry",
+    artist: "Rina Sawayama",
+    album: "Single",
   },
 ];
