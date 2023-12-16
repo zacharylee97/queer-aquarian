@@ -1,7 +1,7 @@
 "use client";
 import * as React from "react";
 import Box from "@mui/material/Box";
-import { DataGrid, GridColDef, GridValueGetterParams } from "@mui/x-data-grid";
+import { DataGrid, GridColDef } from "@mui/x-data-grid";
 import { Playlist } from "../constants/playlist";
 
 const MobilePlaylistColumns: GridColDef[] = [
@@ -9,6 +9,11 @@ const MobilePlaylistColumns: GridColDef[] = [
     field: "song",
     headerName: "Song",
     valueGetter: (params) => `${params.row.title} by ${params.row.artist}`,
+    width: 500,
+  },
+  {
+    field: "artist",
+    headerName: "Artist",
     width: 500,
   },
 ];
@@ -28,6 +33,11 @@ export default function MobilePlaylistTable() {
         initialState={{
           sorting: {
             sortModel: [{ field: "artist", sort: "asc" }],
+          },
+          columns: {
+            columnVisibilityModel: {
+              artist: false,
+            },
           },
         }}
         getRowId={(row) => `${row.title} ${row.artist}`}
