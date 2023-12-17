@@ -1,8 +1,8 @@
 import { Box, Typography } from "@mui/material";
 
-export default function Clobs2018() {
+export default function Journal() {
   return (
-    <Box>
+    <Box className="my-5">
       <Typography variant="h5">
         <p>
           <b>2018</b>

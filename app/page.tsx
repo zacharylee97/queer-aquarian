@@ -35,7 +35,8 @@ export default function Home() {
             <u>Instagram</u>
           </a>
           {` account, but I wanted a place to share my other passions as well, including
-          food, music and poetry. I hope you enjoy and remember, life is short, so
+          music, food and travel. I'm also planning on sharing more personal details of my life.
+          I hope you enjoy and remember, life is short, so
           make the most of it!`}
         </Typography>
       </Box>
