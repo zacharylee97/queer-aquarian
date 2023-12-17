@@ -44,6 +44,7 @@ export default function Clobs() {
           <Box sx={{ borderBottom: 1, borderColor: "divider" }}>
             <Tabs value={value} onChange={handleChange} aria-label="CLOBS Tabs">
               <StyledTab label="Journal" />
+              <StyledTab label="CLOBS HK 2023" />
               <StyledTab label="Facebook 2015" />
               <StyledTab label="My Memoir 2015" />
             </Tabs>
