@@ -1,10 +1,10 @@
 import { Box } from "@mui/material";
 import Image from "next/image";
-import HongKong2023 from "./hong-kong-2023";
+import Clobs2018 from "./clobs-2018";
 
-export default function GuideItem({ ...props }) {
+export default function ClobsItem({ ...props }) {
   if (props.index === 0) {
-    return <HongKong2023 />;
+    return <Clobs2018 />;
   } else {
     return (
       <Box>

@@ -1,26 +1,33 @@
-import { Box, Typography } from "@mui/material";
+"use client";
+import { Box, Tabs, Typography } from "@mui/material";
 import Header from "../components/header";
-import Clobs2018 from "../components/clobs-2018";
+import { useState, SyntheticEvent } from "react";
+import { StyledTab } from "../constants/styled-tab";
+import ClobsItem from "../components/clobs-item";
 
 export default function Clobs() {
+  const [value, setValue] = useState(0);
+
+  const handleChange = (_: SyntheticEvent, newValue: number) => {
+    setValue(newValue);
+  };
+
   return (
     <main className="min-h-screen w-screen">
       <Header></Header>
       <Box className="flex flex-col mt-28">
         <Box className="m-10">
           <Typography variant="h4">
-            <p>
-              {`Comprehensive List of Bullshit (CLOBS) I've Had to Deal With in
-              Life:`}
-            </p>
-            <p>Growing Up and Living with Anxiety, Depression and OCPD</p>
+            <p>{`Comprehensive List of Bullshit (CLOBS)`}</p>
           </Typography>
-          <Typography variant="h5">A Memoir By Zachary Lee</Typography>
-          <br />
-          <Typography variant="h5">
-            <p>{`CLOBS I've Had to Deal With (2018 to 2023)`}</p>
-          </Typography>
-          <Clobs2018></Clobs2018>
+          <Box sx={{ borderBottom: 1, borderColor: "divider" }}>
+            <Tabs value={value} onChange={handleChange} aria-label="CLOBS Tabs">
+              <StyledTab label="Journal" />
+              <StyledTab label="Facebook 2015" />
+              <StyledTab label="My Memoir 2015" />
+            </Tabs>
+          </Box>
+          <ClobsItem index={value}></ClobsItem>
         </Box>
       </Box>
     </main>
