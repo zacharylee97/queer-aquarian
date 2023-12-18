@@ -59,6 +59,12 @@ export default function Header() {
               home
             </Link>
             <Link
+              href="/horoscope"
+              className="flex items-center m-10 text-xl uppercase"
+            >
+              horoscope
+            </Link>
+            <Link
               href="/food-and-travel"
               className="flex items-center m-10 text-xl uppercase"
             >
