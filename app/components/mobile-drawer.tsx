@@ -22,10 +22,7 @@ export default function MobileDrawer({
         <Link href="/" className="mobile-link">
           home
         </Link>
-        <Link
-          href="/horoscope"
-          className="flex items-center m-10 text-xl uppercase"
-        >
+        <Link href="/horoscope" className="mobile-link">
           horoscope
         </Link>
         <Link href="/food-and-travel" className="mobile-link">

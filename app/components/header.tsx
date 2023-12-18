@@ -39,13 +39,15 @@ export default function Header() {
                 setDrawerState={setDrawerState}
               ></MobileDrawer>
             </Box>
-            <Image
-              src="/luna.jpeg"
-              alt="Luna"
-              width={80}
-              height={80}
-              style={logoStyle}
-            />
+            <a href="https://www.instagram.com/queer_aquarian">
+              <Image
+                src="/luna.jpeg"
+                alt="Luna"
+                width={80}
+                height={80}
+                style={logoStyle}
+              />
+            </a>
             <Box className="flex flex-col mx-3">
               <Link href="/">
                 <Typography variant="h4" textAlign="center">
