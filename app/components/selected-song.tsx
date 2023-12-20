@@ -2,7 +2,7 @@
 import { useEffect, useState } from 'react';
 import { Playlist } from '../constants/playlist';
 import { Song } from '../interfaces/song';
-import { Box } from '@mui/material';
+import { Typography } from '@mui/material';
 
 export default function SelectedSong() {
   const [selectedSong, setSelectedSong] = useState<Song | null>(null);
@@ -12,13 +12,13 @@ export default function SelectedSong() {
   });
 
   return (
-    <Box className="mx-3">
+    <Typography className="ml-1" variant="h6">
       {selectedSong !== null ?
         <i>
           {selectedSong.title} by {selectedSong.artist}
         </i>
         : <div></div>
       }
-    </Box>
+    </Typography>
   )
 }
