@@ -16,7 +16,7 @@ export default function Header() {
   const [drawerState, setDrawerState] = useState(false);
 
   return (
-    <Box>
+    <Box sx={{ height: { xs: "6rem" } }}>
       <AppBar position="fixed" sx={{ zIndex: theme.zIndex.drawer + 1 }}>
         <Toolbar disableGutters sx={{ display: "flex" }}>
           <Box sx={{ display: "flex", alignItems: "center" }}>
