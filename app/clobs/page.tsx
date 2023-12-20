@@ -17,7 +17,7 @@ export default function Clobs() {
       <Header></Header>
       <Box className="flex flex-col mt-28">
         <Box className="m-10">
-          <Typography variant="h4">
+          <Typography variant="h3">
             <p>{`CLOBS`}</p>
           </Typography>
           <p>{`Welcome to the most personal section of my blog.`}</p>

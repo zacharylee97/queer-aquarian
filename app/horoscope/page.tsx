@@ -8,7 +8,7 @@ export default function Horoscope() {
       <Header></Header>
       <Box className="flex flex-col mt-28">
         <Box className="m-10">
-          <Typography variant="h4">
+          <Typography variant="h3">
             <p>{`Horoscope`}</p>
           </Typography>
           <Typography>
