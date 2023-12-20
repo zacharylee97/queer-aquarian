@@ -7,7 +7,7 @@ import { Playlist } from "../constants/playlist";
 
 export default function PlaylistTable() {
   return (
-    <Box sx={{ height: "max-content", width: "100%", marginTop: "1.25em" }}>
+    <Box sx={{ height: "631px", width: "100%", marginTop: "1.25em" }}>
       <DataGrid
         sx={{
           color: "white",
@@ -21,8 +21,10 @@ export default function PlaylistTable() {
           sorting: {
             sortModel: [{ field: "artist", sort: "asc" }],
           },
+          pagination: { paginationModel: { pageSize: 10 } },
         }}
         getRowId={(row) => `${row.title} ${row.artist}`}
+        pageSizeOptions={[10, 25, 50, 100]}
         disableRowSelectionOnClick
       />
     </Box>
