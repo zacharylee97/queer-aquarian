@@ -20,3 +20,18 @@ export const PlaylistColumns: GridColDef[] = [
     width: 500,
   },
 ];
+
+export const MobilePlaylistColumns: GridColDef[] = [
+  {
+    field: "song",
+    headerName: "Song",
+    valueGetter: (params) => `${params.row.title} by ${params.row.artist}`,
+    sortable: false,
+    width: 500,
+  },
+  {
+    field: "artist",
+    headerName: "Artist",
+    width: 500,
+  },
+];
