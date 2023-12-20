@@ -7,12 +7,9 @@ import React, { useState } from "react";
 import MenuIcon from "@mui/icons-material/Menu";
 import MobileDrawer from "./mobile-drawer";
 
-const companyName = "Queer Aquarian";
-
 export default function Header() {
   const theme = useTheme();
-  const logoStyle = {
-    margin: "1.25rem",
+  const lunaStyle = {
     borderRadius: "50%",
   };
 
@@ -23,7 +20,7 @@ export default function Header() {
       <AppBar position="fixed" sx={{ zIndex: theme.zIndex.drawer + 1 }}>
         <Toolbar disableGutters sx={{ display: "flex" }}>
           <Box sx={{ display: "flex", alignItems: "center" }}>
-            <Box sx={{ display: { xs: "flex", md: "none" } }}>
+            <Box sx={{ display: { md: "flex", lg: "none" } }}>
               <IconButton
                 size="large"
                 edge="start"
@@ -39,43 +36,34 @@ export default function Header() {
                 setDrawerState={setDrawerState}
               ></MobileDrawer>
             </Box>
-            <a href="https://www.instagram.com/queer_aquarian">
-              <Image
-                src="/luna.jpeg"
-                alt="Luna"
-                width={80}
-                height={80}
-                style={logoStyle}
-              />
-            </a>
+            <Box className="my-3 ml-3">
+              <a href="https://www.instagram.com/queer_aquarian">
+                <Image
+                  src="/luna.jpeg"
+                  alt="Luna"
+                  width={80}
+                  height={80}
+                  style={lunaStyle}
+                />
+              </a>
+            </Box>
             <Box className="flex flex-col mx-3">
               <Link href="/">
-                <Typography variant="h4" textAlign="center">
-                  {companyName}
-                </Typography>
+                <Image src="/logo.png" alt="Logo" width={350} height={100} />
               </Link>
             </Box>
           </Box>
-          <Box sx={{ display: { xs: "none", md: "flex" } }}>
-            <Link href="/" className="flex items-center m-10 text-xl uppercase">
+          <Box sx={{ display: { xs: "none", md: "none", lg: "flex" } }}>
+            <Link href="/" className="header-link">
               home
             </Link>
-            <Link
-              href="/horoscope"
-              className="flex items-center m-10 text-xl uppercase"
-            >
+            <Link href="/horoscope" className="header-link">
               horoscope
             </Link>
-            <Link
-              href="/food-and-travel"
-              className="flex items-center m-10 text-xl uppercase"
-            >
+            <Link href="/food-and-travel" className="header-link">
               food & travel
             </Link>
-            <Link
-              href="/clobs"
-              className="flex items-center m-10 text-xl uppercase"
-            >
+            <Link href="/clobs" className="header-link">
               clobs
             </Link>
           </Box>
