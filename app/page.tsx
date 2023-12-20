@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <main className="min-h-screen w-screen overflow-hidden">
       <Header></Header>
-      <Box className="flex flex-col mt-28">
+      <Box className="flex flex-col">
         <MusicPlayer></MusicPlayer>
         <Image
           src="/background-images/Luna.png"
@@ -29,7 +29,7 @@ export default function Home() {
           height={1000}
           style={sloganStyle}
         />
-        <Typography className="mt-10 mx-20">
+        <Typography className="p-10">
           <p>
             {`Queer Aquarian is my personal blog where I can post whatever I want.
           It started out as an art and photography `}
