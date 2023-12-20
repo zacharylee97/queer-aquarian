@@ -8,14 +8,6 @@
   --background-end-rgb: 0, 0, 0;
 }
 
-/* @media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-} */
-
 body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
@@ -32,5 +24,14 @@ body {
   text-transform: uppercase;
   font-size: 1.25rem !important;
   line-height: 1.75rem !important;
-  margin: 2.5rem !important;
+  margin: 1rem 2.5rem !important;
+}
+
+.header-link {
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  margin: 2rem;
 }
