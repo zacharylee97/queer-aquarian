@@ -1,5 +1,5 @@
 "use client";
-import { Box, AppBar, Toolbar, Typography, IconButton } from "@mui/material";
+import { Box, AppBar, Toolbar, IconButton } from "@mui/material";
 import { useTheme } from "@mui/material/styles";
 import Image from "next/image";
 import Link from "next/link";
@@ -16,7 +16,7 @@ export default function Header() {
   const [drawerState, setDrawerState] = useState(false);
 
   return (
-    <Box sx={{ height: { xs: "6rem" } }}>
+    <Box sx={{ height: { xs: "5rem", sm: "6rem" } }}>
       <AppBar position="fixed" sx={{ zIndex: theme.zIndex.drawer + 1 }}>
         <Toolbar disableGutters sx={{ display: "flex" }}>
           <Box sx={{ display: "flex", alignItems: "center" }}>

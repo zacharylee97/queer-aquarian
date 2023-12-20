@@ -4,15 +4,19 @@ import Link from "next/link";
 
 export default function MusicPlayer() {
   return (
-    <Box className="p-3 bg-black">
-      <Typography className="flex flex-row whitespace-nowrap" variant="h6">
-        <b>
-          <u>
-            <Link href="/playlist">Now Playing:</Link>
-          </u>
-        </b>
-        <SelectedSong></SelectedSong>
-      </Typography>
+    <Box className="flex flex-row p-3 bg-black"
+      sx={{ marginY: { xs: "1rem", sm: "0.5rem" } }}>
+      <Link href="/playlist">
+        <Typography className="whitespace-nowrap" variant="h6">
+          <b>
+            <u>
+              Now Playing
+            </u>
+          </b>
+          :
+        </Typography>
+      </Link>
+      <SelectedSong></SelectedSong>
     </Box>
   );
 }
