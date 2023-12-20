@@ -1,6 +1,7 @@
 import { Box, Typography } from "@mui/material";
 import Header from "../components/header";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Horoscope() {
   return (
@@ -8,8 +9,16 @@ export default function Horoscope() {
       <Header></Header>
       <Box className="flex flex-col mt-28">
         <Box className="m-10">
-          <Typography variant="h4">
+          <Typography variant="h3">
             <p>{`Horoscope`}</p>
+          </Typography>
+          <Typography variant="h6">
+            {`Click `}
+            <Link href={"/horoscope/2024"}>
+              <u>here</u>
+            </Link>
+            {` for my 2024 horoscope!`}
+            <br />
           </Typography>
           <Typography>
             {`As you can guess from my blog's namesake, I am an Aquarian. 
@@ -23,70 +32,71 @@ export default function Horoscope() {
               <u>Insta Story</u>
             </a>
             {`. If you create a Co-Star account, let me know and I can add you!`}
+            <br />
           </Typography>
           <br />
           <Image
-            src="/Horoscope/1-sun.png"
+            src="/horoscope/1-sun.png"
             alt="1-sun"
             width={350}
             height={350}
           />
           <Image
-            src="/Horoscope/2-moon.png"
+            src="/horoscope/2-moon.png"
             alt="2-moon"
             width={350}
             height={350}
           />
           <Image
-            src="/Horoscope/3-ascendant.png"
+            src="/horoscope/3-ascendant.png"
             alt="3-ascendant"
             width={350}
             height={350}
           />
           <Image
-            src="/Horoscope/4-mercury.png"
+            src="/horoscope/4-mercury.png"
             alt="4-mercury"
             width={350}
             height={350}
           />
           <Image
-            src="/Horoscope/5-venus.png"
+            src="/horoscope/5-venus.png"
             alt="5-venus"
             width={350}
             height={350}
           />
           <Image
-            src="/Horoscope/6-mars.png"
+            src="/horoscope/6-mars.png"
             alt="6-mars"
             width={350}
             height={350}
           />
           <Image
-            src="/Horoscope/7-jupiter.png"
+            src="/horoscope/7-jupiter.png"
             alt="7-jupiter"
             width={350}
             height={350}
           />
           <Image
-            src="/Horoscope/8-saturn.png"
+            src="/horoscope/8-saturn.png"
             alt="8-saturn"
             width={350}
             height={350}
           />
           <Image
-            src="/Horoscope/9-uranus.png"
+            src="/horoscope/9-uranus.png"
             alt="9-uranus"
             width={350}
             height={350}
           />
           <Image
-            src="/Horoscope/10-neptune.png"
+            src="/horoscope/10-neptune.png"
             alt="10-neptune"
             width={350}
             height={350}
           />
           <Image
-            src="/Horoscope/11-pluto.png"
+            src="/horoscope/11-pluto.png"
             alt="11-pluto"
             width={350}
             height={350}
