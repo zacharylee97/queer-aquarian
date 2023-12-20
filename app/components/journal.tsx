@@ -57,15 +57,6 @@ export default function Journal() {
       <br />
       <Typography variant="h6">
         <p>
-          <b>06/26/18</b>
-        </p>
-      </Typography>
-      <Typography variant="body1">
-        <p>{`I will never ask for what I want; I will never get what I need`}</p>
-      </Typography>
-      <br />
-      <Typography variant="h6">
-        <p>
           <b>07/03/18</b>
         </p>
       </Typography>
