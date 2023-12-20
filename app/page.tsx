@@ -10,23 +10,24 @@ export default function Home() {
   };
 
   return (
-    <main className="min-h-screen w-screen">
+    <main className="min-h-screen w-screen overflow-hidden">
       <Header></Header>
       <Box className="flex flex-col mt-28">
         <MusicPlayer></MusicPlayer>
+        <Image
+          src="/background-images/Luna.png"
+          alt="Background Image"
+          quality={100}
+          fill
+          sizes="100vw"
+          style={{ objectFit: "cover", zIndex: "-1", opacity: "50%" }}
+        />
         <Image
           src="/slogan.png"
           alt="Slogan"
           width={1000}
           height={1000}
           style={sloganStyle}
-        />
-        <Image
-          className="invert self-center"
-          src="/fancy-squiggle.png"
-          alt="Fancy Squiggle"
-          width={500}
-          height={500}
         />
         <Typography className="mt-10 mx-20">
           <p>
