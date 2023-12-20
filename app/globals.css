@@ -34,3 +34,12 @@ body {
   line-height: 1.75rem !important;
   margin: 2.5rem !important;
 }
+
+.header-link {
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  margin: 2rem;
+}
