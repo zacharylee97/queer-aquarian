@@ -4,8 +4,8 @@ import Link from "next/link";
 
 export default function MusicPlayer() {
   return (
-    <Box className="m-3">
-      <Typography className="flex flex-row" variant="h6">
+    <Box className="p-3 bg-black">
+      <Typography className="flex flex-row whitespace-nowrap" variant="h6">
         <b>
           <u>
             <Link href="/playlist">Now Playing:</Link>
