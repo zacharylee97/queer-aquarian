@@ -38,35 +38,18 @@ export default function Header() {
             </Box>
             <Box className="my-3 ml-3">
               <a href="https://www.instagram.com/queer_aquarian">
-                <Box sx={{ display: { xs: "none", sm: "flex" } }}>
-                  <Image
-                    src="/luna.jpeg"
-                    alt="Luna"
-                    width={80}
-                    height={80}
-                    style={lunaStyle}
-                  />
-                </Box>
-                <Box sx={{ display: { xs: "flex", sm: "none" } }}>
-                  <Image
-                    src="/luna.jpeg"
-                    alt="Luna"
-                    width={50}
-                    height={50}
-                    style={lunaStyle}
-                  />
-                </Box>
+                <Image
+                  src="/luna.webp"
+                  alt="Luna"
+                  width={80}
+                  height={80}
+                  style={lunaStyle}
+                />
               </a>
             </Box>
             <Box className="flex flex-col mx-3">
               <Link href="/">
-                <Image
-                  src="/logo.png"
-                  alt="Logo"
-                  sizes="(max-width: 600px): 250px, 350px"
-                  width={350}
-                  height={100}
-                />
+                <Image src="/logo.webp" alt="Logo" width={350} height={100} />
               </Link>
             </Box>
           </Box>

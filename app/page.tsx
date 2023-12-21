@@ -10,7 +10,7 @@ export default function Home() {
       <Box className="flex flex-col relative overflow-hidden">
         <MusicPlayer></MusicPlayer>
         <Image
-          src="/home-page.png"
+          src="/home-page.webp"
           alt="Home Page"
           priority
           quality={100}
