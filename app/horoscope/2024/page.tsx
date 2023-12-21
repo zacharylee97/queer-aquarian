@@ -8,9 +8,7 @@ export default function Horoscope2024() {
       <Header></Header>
       <Box className="flex flex-col">
         <Box className="m-10">
-          <Typography variant="h3">
-            <p>{`2024 Horoscope`}</p>
-          </Typography>
+          <Typography variant="h3">{`2024 Horoscope`}</Typography>
           <Typography>
             {`Courtesy of `}
             <a href="https://www.costarastrology.com">

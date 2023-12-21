@@ -10,7 +10,8 @@ export default function Horoscope() {
       <Box className="flex flex-col">
         <Box className="m-10">
           <Typography variant="h3">
-            <p>{`Horoscope`}</p>
+            {`Horoscope`}
+            <br />
           </Typography>
           <Typography variant="h6">
             {`Click `}

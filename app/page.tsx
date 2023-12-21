@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <main className="min-h-screen w-screen overflow-hidden">
       <Header></Header>
-      <Box className="flex flex-col">
+      <Box className="flex flex-col relative">
         <MusicPlayer></MusicPlayer>
         <Image
           src="/background-images/Luna.png"
@@ -29,21 +29,18 @@ export default function Home() {
           height={1000}
           style={sloganStyle}
         />
-        <Typography className="p-10 bg-black">
-          <p>
-            {`Queer Aquarian is my personal blog where I can post whatever I want.
+        <Box className="p-10 bg-black">
+          {`Queer Aquarian is my personal blog where I can post whatever I want.
           It started out as an art and photography `}
-            <a href="https://www.instagram.com/queer_aquarian">
-              <u>Instagram</u>
-            </a>
-            {` account, but I wanted a place to share my other passions as well, like my love for 
+          <a href="https://www.instagram.com/queer_aquarian">
+            <u>Instagram</u>
+          </a>
+          {` account, but I wanted a place to share my other passions as well, like my love for 
           music, food and travel. I'm also planning on sharing more personal details of my life.`}
-          </p>
           <br />
-          <p>
-            {`I hope you enjoy and remember, life is short, so make the most of it!`}
-          </p>
-        </Typography>
+          <br />
+          {`I hope you enjoy and remember, life is short, so make the most of it!`}
+        </Box>
       </Box>
     </main>
   );
