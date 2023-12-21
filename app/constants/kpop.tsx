@@ -813,11 +813,6 @@ export const Kpop: Song[] = [
     album: "The Red Summer - Summer Mini Album",
   },
   {
-    title: "Rebirth",
-    artist: "Red Velvet",
-    album: "Single",
-  },
-  {
     title: "Peek-A-Boo",
     artist: "Red Velvet",
     album: "Perfect Velvet - The 2nd Album",

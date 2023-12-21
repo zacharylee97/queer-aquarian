@@ -18,28 +18,29 @@ export default function Clobs() {
       <Box className="flex flex-col">
         <Box className="m-10">
           <Typography variant="h3">
-            <p>{`CLOBS`}</p>
+            {`CLOBS`}
+            <br />
           </Typography>
-          <p>{`Welcome to the most personal section of my blog.`}</p>
+          {`Welcome to the most personal section of my blog.`}
           <br />
-          <p>{`CLOBS stands for "Comprehensive List of Bullshit", and I came up 
+          <br />
+          {`CLOBS stands for "Comprehensive List of Bullshit", and I came up 
             with this acronym during my trip to Hong Kong in November 2023. I was 
             dealing with a very stressful situation and I remember writing down 
             this list of all the things I was dealing with, which ending up becoming 
-            “CLOBS I Have to Deal with in HK”.`}</p>
+            “CLOBS I Have to Deal with in HK”.`}
           <br />
-          <p>
-            {`I used to be so scared to think about what happened in the past. It was so 
+          <br />
+          {`I used to be so scared to think about what happened in the past. It was so 
             traumatic, I actually completely blocked most of it from my memory. I used to 
             think it was just my bad memory, but now I understand that it was a protective 
             response by my subconscious to protect myself. Cause honestly, I don't think I 
             was ready to think about it. Until now.`}
-          </p>
           <br />
-          <p>
-            {`I want to take a look back, to better understand why I am the way I am, and 
+          <br />
+          {`I want to take a look back, to better understand why I am the way I am, and 
             to remember everything that happened. Wanna come with me?`}
-          </p>
+          <br />
           <br />
           <Box sx={{ borderBottom: 1, borderColor: "divider" }}>
             <Tabs value={value} onChange={handleChange} aria-label="CLOBS Tabs">
