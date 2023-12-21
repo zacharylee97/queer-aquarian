@@ -37,67 +37,67 @@ export default function Horoscope() {
           </Typography>
           <br />
           <Image
-            src="/horoscope/1-sun.png"
+            src="/horoscope/1-sun.webp"
             alt="1-sun"
             width={350}
             height={350}
           />
           <Image
-            src="/horoscope/2-moon.png"
+            src="/horoscope/2-moon.webp"
             alt="2-moon"
             width={350}
             height={350}
           />
           <Image
-            src="/horoscope/3-ascendant.png"
+            src="/horoscope/3-ascendant.webp"
             alt="3-ascendant"
             width={350}
             height={350}
           />
           <Image
-            src="/horoscope/4-mercury.png"
+            src="/horoscope/4-mercury.webp"
             alt="4-mercury"
             width={350}
             height={350}
           />
           <Image
-            src="/horoscope/5-venus.png"
+            src="/horoscope/5-venus.webp"
             alt="5-venus"
             width={350}
             height={350}
           />
           <Image
-            src="/horoscope/6-mars.png"
+            src="/horoscope/6-mars.webp"
             alt="6-mars"
             width={350}
             height={350}
           />
           <Image
-            src="/horoscope/7-jupiter.png"
+            src="/horoscope/7-jupiter.webp"
             alt="7-jupiter"
             width={350}
             height={350}
           />
           <Image
-            src="/horoscope/8-saturn.png"
+            src="/horoscope/8-saturn.webp"
             alt="8-saturn"
             width={350}
             height={350}
           />
           <Image
-            src="/horoscope/9-uranus.png"
+            src="/horoscope/9-uranus.webp"
             alt="9-uranus"
             width={350}
             height={350}
           />
           <Image
-            src="/horoscope/10-neptune.png"
+            src="/horoscope/10-neptune.webp"
             alt="10-neptune"
             width={350}
             height={350}
           />
           <Image
-            src="/horoscope/11-pluto.png"
+            src="/horoscope/11-pluto.webp"
             alt="11-pluto"
             width={350}
             height={350}

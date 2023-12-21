@@ -12,7 +12,7 @@ export default function ClobsItem({ ...props }) {
     return (
       <Box>
         <Image
-          src="/coming-soon.png"
+          src="/coming-soon.webp"
           alt="Coming Soon"
           width={500}
           height={500}
