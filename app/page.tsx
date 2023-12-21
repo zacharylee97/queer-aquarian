@@ -29,7 +29,7 @@ export default function Home() {
           height={1000}
           style={sloganStyle}
         />
-        <Typography className="p-10">
+        <Typography className="p-10 bg-black">
           <p>
             {`Queer Aquarian is my personal blog where I can post whatever I want.
           It started out as an art and photography `}
