@@ -4,8 +4,8 @@ import Link from "next/link";
 
 export default function MusicPlayer() {
   return (
-    <Box className="flex flex-row p-3 bg-black"
-      sx={{ marginY: { xs: "1rem", sm: "0.5rem" } }}>
+    <Box className="flex flex-row p-3"
+      sx={{ backgroundColor: { sm: "black" } }}>
       <Link href="/playlist">
         <Typography className="whitespace-nowrap" variant="h6">
           <b>
