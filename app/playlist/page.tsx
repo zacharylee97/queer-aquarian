@@ -7,7 +7,7 @@ export default function MySecretPlaylist() {
   return (
     <main className="min-h-screen w-screen">
       <Header></Header>
-      <Box className="flex flex-col mt-28">
+      <Box className="flex flex-col">
         <Box className="m-10 mb-3">
           <Typography variant="h3">My Secret Playlist</Typography>
           <p>
