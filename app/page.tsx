@@ -17,8 +17,9 @@ export default function Home() {
         <Image
           src="/background-images/Luna.png"
           alt="Background Image"
-          quality={100}
+          priority
           fill
+          quality={100}
           sizes="100vw"
           style={{ objectFit: "cover", zIndex: "-1", opacity: "50%" }}
         />
