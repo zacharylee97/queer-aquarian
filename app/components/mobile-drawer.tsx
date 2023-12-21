@@ -11,7 +11,7 @@ export default function MobileDrawer({
       sx={{
         [`& .MuiDrawer-paper`]: {
           backgroundColor: "black",
-          marginTop: "7rem",
+          marginTop: { xs: "6rem", sm: "7rem" },
         },
       }}
       anchor="left"

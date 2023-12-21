@@ -60,12 +60,13 @@ export default function Header() {
             </Box>
             <Box className="flex flex-col mx-3">
               <Link href="/">
-                <Box sx={{ display: { xs: "none", sm: "flex" } }}>
-                  <Image src="/logo.png" alt="Logo" width={350} height={100} />
-                </Box>
-                <Box sx={{ display: { xs: "flex", sm: "none" } }}>
-                  <Image src="/logo.png" alt="Logo" width={250} height={100} />
-                </Box>
+                <Image
+                  src="/logo.png"
+                  alt="Logo"
+                  sizes="(max-width: 600px): 250px, 350px"
+                  width={350}
+                  height={100}
+                />
               </Link>
             </Box>
           </Box>
