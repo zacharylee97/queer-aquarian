@@ -7,7 +7,7 @@ export default function Horoscope() {
   return (
     <main className="min-h-screen w-screen">
       <Header></Header>
-      <Box className="flex flex-col mt-28">
+      <Box className="flex flex-col">
         <Box className="m-10">
           <Typography variant="h3">
             <p>{`Horoscope`}</p>
