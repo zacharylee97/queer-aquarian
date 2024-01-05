@@ -19,15 +19,14 @@ export default function Clobs() {
       <Box className="flex flex-col">
         <Box className="m-10">
           <Box>
+            <Image
+              src="/essays.webp"
+              alt="Essays"
+              priority
+              fill
+              style={{ objectFit: "cover", zIndex: -1, opacity: "50%" }}
+            />
             <Typography variant="h3">
-              <Image
-                src="/essays.webp"
-                alt="Essays"
-                priority
-                fill
-                sizes={"100vh"}
-                style={{ objectFit: "cover", zIndex: -1, opacity: "50%" }}
-              />
               {`CLOBS`}
               <br />
             </Typography>
