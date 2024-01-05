@@ -25,7 +25,6 @@ export default function Clobs() {
                 alt="Essays"
                 priority
                 fill
-                sizes={"100vh"}
                 style={{ objectFit: "cover", zIndex: -1, opacity: "50%" }}
               />
               {`CLOBS`}
