@@ -19,38 +19,38 @@ export default function Horoscope2024() {
           <Image
             src="/2024-horoscope/1.webp"
             alt="1"
-            width={350}
-            height={350}
+            width={500}
+            height={500}
           />
           <Image
             src="/2024-horoscope/2.webp"
             alt="2"
-            width={350}
-            height={350}
+            width={500}
+            height={500}
           />
           <Image
             src="/2024-horoscope/3.webp"
             alt="3"
-            width={350}
-            height={350}
+            width={500}
+            height={500}
           />
           <Image
             src="/2024-horoscope/4.webp"
             alt="4"
-            width={350}
-            height={350}
+            width={500}
+            height={500}
           />
           <Image
             src="/2024-horoscope/5.webp"
             alt="5"
-            width={350}
-            height={350}
+            width={500}
+            height={500}
           />
           <Image
             src="/2024-horoscope/6.webp"
             alt="6"
-            width={350}
-            height={350}
+            width={500}
+            height={500}
           />
         </Box>
       </Box>
