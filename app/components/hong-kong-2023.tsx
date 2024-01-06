@@ -64,7 +64,6 @@ export default function HongKong2023() {
         width={1000}
         height={1000}
       />
-      <Typography variant="h5">More to come, stay tuned!</Typography>
     </Box>
   );
 }
