@@ -97,6 +97,18 @@ export const Kpop: Song[] = [
     display: true,
   },
   {
+    title: "DDU-DU DDU-DU",
+    artist: "BLACKPINK",
+    album: "SQUARE UP",
+    display: true,
+  },
+  {
+    title: "Forever Young",
+    artist: "BLACKPINK",
+    album: "SQUARE UP",
+    display: true,
+  },
+  {
     title: "Kill This Love",
     artist: "BLACKPINK",
     album: "Kill This Love",

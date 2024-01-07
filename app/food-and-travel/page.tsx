@@ -26,6 +26,7 @@ export default function FoodAndTravel() {
             >
               <StyledTab label="Hong Kong 2023" />
               <StyledTab label="Kuching 2023" />
+              <StyledTab label="Spain and Portugal 2023" />
             </Tabs>
           </Box>
           <GuideItem index={value}></GuideItem>

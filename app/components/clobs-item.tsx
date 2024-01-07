@@ -14,8 +14,8 @@ export default function ClobsItem({ ...props }) {
         <Image
           src="/coming-soon.webp"
           alt="Coming Soon"
-          width={500}
-          height={500}
+          width={1000}
+          height={1000}
         />
       </Box>
     );
