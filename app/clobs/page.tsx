@@ -3,7 +3,7 @@ import { Box, Tabs, Typography } from "@mui/material";
 import Header from "../components/header";
 import { useState, SyntheticEvent } from "react";
 import { StyledTab } from "../constants/styled-tab";
-import ClobsItem from "../components/clobs-item";
+import ClobsItem from "../components/clobs/clobs-item";
 import Image from "next/image";
 
 export default function Clobs() {
