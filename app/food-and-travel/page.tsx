@@ -3,7 +3,7 @@ import { Box, Tabs, Typography } from "@mui/material";
 import Header from "../components/header";
 import { SyntheticEvent, useState } from "react";
 import { StyledTab } from "../constants/styled-tab";
-import GuideItem from "../components/guide-item";
+import GuideItem from "../components/food-and-travel/guide-item";
 
 export default function FoodAndTravel() {
   const [value, setValue] = useState(0);
@@ -24,9 +24,9 @@ export default function FoodAndTravel() {
               onChange={handleChange}
               aria-label="Food & Travel Guide Tabs"
             >
-              <StyledTab label="Hong Kong 2023" />
-              <StyledTab label="Kuching 2023" />
-              <StyledTab label="Spain and Portugal 2023" />
+              <StyledTab label="HK 2023" />
+              <StyledTab label="KCH 2023" />
+              <StyledTab label="ESP & PRT 2023" />
             </Tabs>
           </Box>
           <GuideItem index={value}></GuideItem>

@@ -1,7 +1,7 @@
 import { Box, Typography } from "@mui/material";
 import Header from "../components/header";
-import PlaylistTable from "../components/playlist-table";
-import MobilePlaylistTable from "../components/mobile-playlist-table";
+import PlaylistTable from "../components/playlist/playlist-table";
+import MobilePlaylistTable from "../components/playlist/mobile-playlist-table";
 
 export default function MySecretPlaylist() {
   return (

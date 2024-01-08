@@ -3,7 +3,7 @@ import { Box, Tabs, Typography } from "@mui/material";
 import Header from "../components/header";
 import { useState, SyntheticEvent } from "react";
 import { StyledTab } from "../constants/styled-tab";
-import ClobsItem from "../components/clobs-item";
+import ClobsItem from "../components/clobs/clobs-item";
 import Image from "next/image";
 
 export default function Clobs() {
@@ -54,7 +54,6 @@ export default function Clobs() {
           </Box>
           <Box sx={{ borderBottom: 1, borderColor: "divider" }}>
             <Tabs value={value} onChange={handleChange} aria-label="CLOBS Tabs">
-              <StyledTab label="Journal" />
               <StyledTab label="CLOBS HK 2023" />
             </Tabs>
           </Box>

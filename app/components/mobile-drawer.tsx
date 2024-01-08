@@ -18,7 +18,7 @@ export default function MobileDrawer({
       open={open}
       onClose={() => setDrawerState(false)}
     >
-      <Box>
+      <Box sx={{ marginTop: "1rem" }}>
         <Link href="/" className="mobile-link">
           home
         </Link>
@@ -27,6 +27,9 @@ export default function MobileDrawer({
         </Link>
         <Link href="/food-and-travel" className="mobile-link">
           food & travel
+        </Link>
+        <Link href="/journal" className="mobile-link">
+          journal
         </Link>
         <Link href="/clobs" className="mobile-link">
           clobs

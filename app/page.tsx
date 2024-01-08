@@ -1,7 +1,7 @@
 import Header from "./components/header";
 import Image from "next/image";
 import { Box } from "@mui/material";
-import MusicPlayer from "./components/music-player";
+import MusicPlayer from "./components/playlist/music-player";
 
 export default function Home() {
   return (

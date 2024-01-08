@@ -1,13 +1,13 @@
 import { Box } from "@mui/material";
 import Image from "next/image";
-import Journal from "./journal";
-import ClobsHK2023 from "./clobs-hk-2023";
+import Journal2018 from "./journal-2018";
+import Journal2022 from "./journal-2022";
 
 export default function ClobsItem({ ...props }) {
   if (props.index === 0) {
-    return <Journal />;
+    return <Journal2018 />;
   } else if (props.index === 1) {
-    return <ClobsHK2023 />;
+    return <Journal2022 />;
   } else {
     return (
       <Box>
