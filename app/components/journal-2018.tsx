@@ -1,6 +1,6 @@
 import { Box, Typography } from "@mui/material";
 
-export default function Journal() {
+export default function Journal2018() {
   return (
     <Box className="my-5">
       <Typography variant="h5">
@@ -81,7 +81,6 @@ export default function Journal() {
         {`Why can't I just be brave?`}<br />
       </Typography>
       <br />
-      <Typography variant="h5">More to come, stay tuned!</Typography>
     </Box>
   );
 }

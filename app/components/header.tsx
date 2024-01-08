@@ -14,7 +14,7 @@ export default function Header() {
         xs: 0,
         sm: 500,
         md: 900,
-        lg: 1200,
+        lg: 1290,
         xl: 1536,
       },
     },
@@ -74,6 +74,9 @@ export default function Header() {
               </Link>
               <Link href="/food-and-travel" className="header-link">
                 food & travel
+              </Link>
+              <Link href="/journal" className="header-link">
+                journal
               </Link>
               <Link href="/clobs" className="header-link">
                 clobs
