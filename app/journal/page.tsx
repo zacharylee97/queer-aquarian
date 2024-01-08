@@ -26,6 +26,7 @@ export default function Journal() {
           <Box sx={{ borderBottom: 1, borderColor: "divider" }}>
             <Tabs value={value} onChange={handleChange} aria-label="Journal Tabs">
               <StyledTab label="2018" />
+              <StyledTab label="2022" />
             </Tabs>
           </Box>
           <JournalItem index={value}></JournalItem>
