@@ -2,12 +2,12 @@
 import * as React from "react";
 import Box from "@mui/material/Box";
 import { DataGrid } from "@mui/x-data-grid";
-import { PlaylistColumns } from "../constants/playlist-columns";
-import { Playlist } from "../constants/playlist";
+import { Playlist } from "../../constants/playlist";
+import { MobilePlaylistColumns } from "../../constants/playlist-columns";
 
-export default function PlaylistTable() {
+export default function MobilePlaylistTable() {
   return (
-    <Box sx={{ height: "631px", width: "100%", marginTop: "1.25em" }}>
+    <Box sx={{ height: "85vh", width: "100%", marginTop: "1.25em" }}>
       <DataGrid
         sx={{
           color: "white",
@@ -16,15 +16,18 @@ export default function PlaylistTable() {
           },
         }}
         rows={Playlist}
-        columns={PlaylistColumns}
+        columns={MobilePlaylistColumns}
         initialState={{
           sorting: {
             sortModel: [{ field: "artist", sort: "asc" }],
           },
-          pagination: { paginationModel: { pageSize: 10 } },
+          columns: {
+            columnVisibilityModel: {
+              artist: false,
+            },
+          },
         }}
         getRowId={(row) => `${row.title} ${row.artist}`}
-        pageSizeOptions={[10, 25, 50, 100]}
         disableRowSelectionOnClick
       />
     </Box>

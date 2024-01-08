@@ -3,7 +3,7 @@ import { Box, Tabs, Typography } from "@mui/material";
 import Header from "../components/header";
 import { useState, SyntheticEvent } from "react";
 import { StyledTab } from "../constants/styled-tab";
-import JournalItem from "../components/journal-item";
+import JournalItem from "../components/journal/journal-item";
 
 export default function Journal() {
   const [value, setValue] = useState(0);
@@ -26,6 +26,7 @@ export default function Journal() {
           <Box sx={{ borderBottom: 1, borderColor: "divider" }}>
             <Tabs value={value} onChange={handleChange} aria-label="Journal Tabs">
               <StyledTab label="2018" />
+              <StyledTab label="2022" />
             </Tabs>
           </Box>
           <JournalItem index={value}></JournalItem>

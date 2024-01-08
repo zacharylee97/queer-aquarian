@@ -3,7 +3,7 @@ import { Box, Tabs, Typography } from "@mui/material";
 import Header from "../components/header";
 import { SyntheticEvent, useState } from "react";
 import { StyledTab } from "../constants/styled-tab";
-import GuideItem from "../components/guide-item";
+import GuideItem from "../components/food-and-travel/guide-item";
 
 export default function FoodAndTravel() {
   const [value, setValue] = useState(0);
