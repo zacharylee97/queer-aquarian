@@ -16,35 +16,37 @@ export default function ClobsHK2023() {
         <br />
         {`List of shit I have to deal with in HK:`}
         <br />
-        <List sx={{ listStyleType: "disc" }}>
-          <ListItem sx={{ display: "list-item" }}>
-            {`Daddy's comments at SOGO: almost 30, need to be professional and make more income`}
-          </ListItem>
-          <ListItem sx={{ display: "list-item" }}>
-            {`Batbat's late night talk: need to be higher level to be successful`}
-          </ListItem>
-          <ListItem sx={{ display: "list-item" }}>
-            {`Batbat saying I need to be director like him`}
-          </ListItem>
-          <ListItem sx={{ display: "list-item" }}>
-            {`Batbat saying everything is a computer`}
-          </ListItem>
-          <ListItem sx={{ display: "list-item" }}>
-            {`Waiting for hours at immigration office with nothing to do`}
-          </ListItem>
-          <ListItem sx={{ display: "list-item" }}>
-            {`Daddy at Uoharu: do you need to eat that much? Fucking wonton mien`}
-          </ListItem>
-          <ListItem sx={{ display: "list-item" }}>
-            {`Daddy rushing to complete secret plans: Bossini, stupid tea place`}
-          </ListItem>
-          <ListItem sx={{ display: "list-item" }}>
-            {`Making fun of me being hungry at 2am`}
-          </ListItem>
-          <ListItem sx={{ display: "list-item" }}>
-            {`Telling me to take pictures of everything we eat`}
-          </ListItem>
-        </List>
+      </Typography>
+      <List sx={{ listStyleType: "disc" }}>
+        <ListItem sx={{ display: "list-item" }}>
+          {`Daddy's comments at SOGO: almost 30, need to be professional and make more income`}
+        </ListItem>
+        <ListItem sx={{ display: "list-item" }}>
+          {`Batbat's late night talk: need to be higher level to be successful`}
+        </ListItem>
+        <ListItem sx={{ display: "list-item" }}>
+          {`Batbat saying I need to be director like him`}
+        </ListItem>
+        <ListItem sx={{ display: "list-item" }}>
+          {`Batbat saying everything is a computer`}
+        </ListItem>
+        <ListItem sx={{ display: "list-item" }}>
+          {`Waiting for hours at immigration office with nothing to do`}
+        </ListItem>
+        <ListItem sx={{ display: "list-item" }}>
+          {`Daddy at Uoharu: do you need to eat that much? Fucking wonton mien`}
+        </ListItem>
+        <ListItem sx={{ display: "list-item" }}>
+          {`Daddy rushing to complete secret plans: Bossini, stupid tea place`}
+        </ListItem>
+        <ListItem sx={{ display: "list-item" }}>
+          {`Making fun of me being hungry at 2am`}
+        </ListItem>
+        <ListItem sx={{ display: "list-item" }}>
+          {`Telling me to take pictures of everything we eat`}
+        </ListItem>
+      </List>
+      <Typography variant="body1">
         {`I already broke down at talked to Mommy about it after the first night, but it's just gotten worse`}
         <br />
         <br />
@@ -72,48 +74,48 @@ export default function ClobsHK2023() {
         <br />
         {`Adding to the list of shit I have to deal with:`}
         <br />
-        <List sx={{ listStyleType: "disc" }}>
-          <ListItem sx={{ display: "list-item" }}>
-            {`I'm spoiled cause they offer to pay for everything and buy me presents, even though I always offer to pay for myself`}
-          </ListItem>
-          <ListItem sx={{ display: "list-item" }}>
-            {`Old style vs new style: university degree is necessary to get high paying coding job`}
-          </ListItem>
-          <ListItem sx={{ display: "list-item" }}>
-            {`Mental illness isn't real, why are you anxious to talk to strangers in person or on the phone?`}
-          </ListItem>
-          <ListItem sx={{ display: "list-item" }}>
-            {`Flirt with the waitress and get a girlfriend from Hong Kong, France, Japan, etc`}
-          </ListItem>
-          <ListItem sx={{ display: "list-item" }}>
-            {`Wow, your Cantonese is so good! You never spoke to us before!`}
-          </ListItem>
-          <ListItem sx={{ display: "list-item" }}>
-            {`No one's helping Mommy check in, like wtf, you have 3 laptops!`}
-          </ListItem>
-          <ListItem sx={{ display: "list-item" }}>{`Buffet dinner`}</ListItem>
-          <ListItem sx={{ display: "list-item" }}>
-            {`My fucking laptop`}
-          </ListItem>
-          <ListItem sx={{ display: "list-item" }}>{`Woke up Mahmah`}</ListItem>
-          <ListItem sx={{ display: "list-item" }}>{`Pixtjr fenaea`}</ListItem>
-          <ListItem sx={{ display: "list-item" }}>{`Hong kokg id`}</ListItem>
-          <ListItem sx={{ display: "list-item" }}>
-            {`Teellig me to loon for the scre. Like wtf? It's eight therE`}
-          </ListItem>
-          <ListItem sx={{ display: "list-item" }}>
-            {`HK vs rest of the world lol`}
-          </ListItem>
-          <ListItem sx={{ display: "list-item" }}>
-            {`Talking about gf stuff, even before ai beought up Jing`}
-          </ListItem>
-          <ListItem sx={{ display: "list-item" }}>
-            {`Not considering that I'm learning new Cantonese phrases`}
-          </ListItem>
-          <ListItem sx={{ display: "list-item" }}>
-            {`Gugu said to FaceTime Megan, even tho Mahmah wasn't ready`}
-          </ListItem>
-        </List>
+      </Typography>
+      <List sx={{ listStyleType: "disc" }}>
+        <ListItem sx={{ display: "list-item" }}>
+          {`I'm spoiled cause they offer to pay for everything and buy me presents, even though I always offer to pay for myself`}
+        </ListItem>
+        <ListItem sx={{ display: "list-item" }}>
+          {`Old style vs new style: university degree is necessary to get high paying coding job`}
+        </ListItem>
+        <ListItem sx={{ display: "list-item" }}>
+          {`Mental illness isn't real, why are you anxious to talk to strangers in person or on the phone?`}
+        </ListItem>
+        <ListItem sx={{ display: "list-item" }}>
+          {`Flirt with the waitress and get a girlfriend from Hong Kong, France, Japan, etc`}
+        </ListItem>
+        <ListItem sx={{ display: "list-item" }}>
+          {`Wow, your Cantonese is so good! You never spoke to us before!`}
+        </ListItem>
+        <ListItem sx={{ display: "list-item" }}>
+          {`No one's helping Mommy check in, like wtf, you have 3 laptops!`}
+        </ListItem>
+        <ListItem sx={{ display: "list-item" }}>{`Buffet dinner`}</ListItem>
+        <ListItem sx={{ display: "list-item" }}>{`My fucking laptop`}</ListItem>
+        <ListItem sx={{ display: "list-item" }}>{`Woke up Mahmah`}</ListItem>
+        <ListItem sx={{ display: "list-item" }}>{`Pixtjr fenaea`}</ListItem>
+        <ListItem sx={{ display: "list-item" }}>{`Hong kokg id`}</ListItem>
+        <ListItem sx={{ display: "list-item" }}>
+          {`Teellig me to loon for the scre. Like wtf? It's eight therE`}
+        </ListItem>
+        <ListItem sx={{ display: "list-item" }}>
+          {`HK vs rest of the world lol`}
+        </ListItem>
+        <ListItem sx={{ display: "list-item" }}>
+          {`Talking about gf stuff, even before ai beought up Jing`}
+        </ListItem>
+        <ListItem sx={{ display: "list-item" }}>
+          {`Not considering that I'm learning new Cantonese phrases`}
+        </ListItem>
+        <ListItem sx={{ display: "list-item" }}>
+          {`Gugu said to FaceTime Megan, even tho Mahmah wasn't ready`}
+        </ListItem>
+      </List>
+      <Typography variant="body1">
         {`Welp, I revealed to the HK fam that Jeremy has a girlfriend `}
         <br />
         <br />
