@@ -1,10 +1,13 @@
 import { Box } from "@mui/material";
 import Image from "next/image";
 import ClobsHK2023 from "./clobs-hk-2023";
+import ClobsKuching2023 from "./clobs-kuching-2023";
 
 export default function ClobsItem({ ...props }) {
   if (props.index === 0) {
     return <ClobsHK2023 />;
+  } else if (props.index === 1) {
+    return <ClobsKuching2023 />;
   } else {
     return (
       <Box>
