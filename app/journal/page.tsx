@@ -4,6 +4,7 @@ import Header from "../components/header";
 import { useState, SyntheticEvent } from "react";
 import { StyledTab } from "../constants/styled-tab";
 import JournalItem from "../components/journal/journal-item";
+import Image from "next/image";
 
 export default function Journal() {
   const [value, setValue] = useState(0);
@@ -18,13 +19,24 @@ export default function Journal() {
       <Box className="flex flex-col">
         <Box className="m-10">
           <Box>
+            <Image
+              src="/journal.webp"
+              alt="Journal"
+              priority
+              fill
+              style={{ objectFit: "cover", zIndex: -1, opacity: "50%" }}
+            />
             <Typography variant="h3">
               {`Journal`}
               <br />
             </Typography>
           </Box>
           <Box sx={{ borderBottom: 1, borderColor: "divider" }}>
-            <Tabs value={value} onChange={handleChange} aria-label="Journal Tabs">
+            <Tabs
+              value={value}
+              onChange={handleChange}
+              aria-label="Journal Tabs"
+            >
               <StyledTab label="2018" />
               <StyledTab label="2022" />
             </Tabs>
