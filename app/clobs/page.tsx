@@ -53,7 +53,13 @@ export default function Clobs() {
             <br />
           </Box>
           <Box sx={{ borderBottom: 1, borderColor: "divider" }}>
-            <Tabs value={value} onChange={handleChange} aria-label="CLOBS Tabs">
+            <Tabs
+              value={value}
+              onChange={handleChange}
+              variant="scrollable"
+              scrollButtons="auto"
+              aria-label="CLOBS Tabs"
+            >
               <StyledTab label="HK 2023" />
               <StyledTab label="KCH 2023" />
             </Tabs>

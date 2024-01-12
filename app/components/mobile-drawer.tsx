@@ -1,5 +1,4 @@
 import { Box, Drawer, Link } from "@mui/material";
-import React from "react";
 import { MobileMenuProps } from "../interfaces/mobile-menu-props";
 
 export default function MobileDrawer({
