@@ -55,6 +55,11 @@ export default function PersonalMenu() {
             journal
           </Link>
         </MenuItem>
+        <MenuItem onClick={handleClose}>
+          <Link href="/poems" style={linkStyle}>
+            poems
+          </Link>
+        </MenuItem>
       </Menu>
     </Box>
   );
