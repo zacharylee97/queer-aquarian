@@ -1,7 +1,6 @@
 "use client";
 import { useState, MouseEvent, CSSProperties } from "react";
 import { Box, Button, Menu, MenuItem } from "@mui/material";
-import Link from "next/link";
 
 export default function PersonalMenu() {
   const [anchorEl, setAnchorEl] = useState<null | HTMLElement>(null);
@@ -9,11 +8,17 @@ export default function PersonalMenu() {
   const handleClick = (event: MouseEvent<HTMLButtonElement>) => {
     setAnchorEl(event.currentTarget);
   };
+  const handleNav = (pathname: string) => {
+    if (window.location.pathname !== pathname) {
+      window.location.href = pathname;
+    } else {
+      handleClose();
+    }
+  };
   const handleClose = () => {
     setAnchorEl(null);
   };
-  const linkStyle: CSSProperties = {
-    margin: "0 2rem",
+  const menuItemStyle: CSSProperties = {
     textTransform: "uppercase",
   };
 
@@ -45,20 +50,14 @@ export default function PersonalMenu() {
           "aria-labelledby": "basic-button",
         }}
       >
-        <MenuItem onClick={handleClose}>
-          <Link href="/clobs" style={linkStyle}>
-            clobs
-          </Link>
+        <MenuItem style={menuItemStyle} onClick={() => handleNav("/clobs")}>
+          clobs
         </MenuItem>
-        <MenuItem onClick={handleClose}>
-          <Link href="/journal" style={linkStyle}>
-            journal
-          </Link>
+        <MenuItem style={menuItemStyle} onClick={() => handleNav("/journal")}>
+          journal
         </MenuItem>
-        <MenuItem onClick={handleClose}>
-          <Link href="/poems" style={linkStyle}>
-            poems
-          </Link>
+        <MenuItem style={menuItemStyle} onClick={() => handleNav("/poems")}>
+          poems
         </MenuItem>
       </Menu>
     </Box>
