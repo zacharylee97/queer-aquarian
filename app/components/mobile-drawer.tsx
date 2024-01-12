@@ -27,11 +27,11 @@ export default function MobileDrawer({
         <Link href="/food-and-travel" className="mobile-link">
           food & travel
         </Link>
-        <Link href="/journal" className="mobile-link">
-          journal
-        </Link>
         <Link href="/clobs" className="mobile-link">
           clobs
+        </Link>
+        <Link href="/journal" className="mobile-link">
+          journal
         </Link>
         <Link href="/poems" className="mobile-link">
           poems
