@@ -35,6 +35,8 @@ export default function Journal() {
             <Tabs
               value={value}
               onChange={handleChange}
+              variant="scrollable"
+              scrollButtons="auto"
               aria-label="Journal Tabs"
             >
               <StyledTab label="2018" />

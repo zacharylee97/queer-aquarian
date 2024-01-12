@@ -22,6 +22,8 @@ export default function FoodAndTravel() {
             <Tabs
               value={value}
               onChange={handleChange}
+              variant="scrollable"
+              scrollButtons="auto"
               aria-label="Food & Travel Guide Tabs"
             >
               <StyledTab label="HK 2023" />
