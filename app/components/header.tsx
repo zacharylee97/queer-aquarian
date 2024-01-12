@@ -3,9 +3,10 @@ import { Box, AppBar, Toolbar, IconButton } from "@mui/material";
 import { ThemeProvider, createTheme } from "@mui/material/styles";
 import Image from "next/image";
 import Link from "next/link";
-import React, { useState } from "react";
+import { CSSProperties, useState } from "react";
 import MenuIcon from "@mui/icons-material/Menu";
 import MobileDrawer from "./mobile-drawer";
+import PersonalMenu from "./personal-menu";
 
 export default function Header() {
   const theme = createTheme({
@@ -14,13 +15,13 @@ export default function Header() {
         xs: 0,
         sm: 500,
         md: 900,
-        lg: 1290,
+        lg: 1200,
         xl: 1536,
       },
     },
   });
 
-  const lunaStyle = {
+  const lunaStyle: CSSProperties = {
     borderRadius: "50%",
   };
 
@@ -75,12 +76,7 @@ export default function Header() {
               <Link href="/food-and-travel" className="header-link">
                 food & travel
               </Link>
-              <Link href="/journal" className="header-link">
-                journal
-              </Link>
-              <Link href="/clobs" className="header-link">
-                clobs
-              </Link>
+              <PersonalMenu></PersonalMenu>
             </Box>
           </Toolbar>
         </AppBar>
