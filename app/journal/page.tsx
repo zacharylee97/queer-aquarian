@@ -41,6 +41,7 @@ export default function Journal() {
             >
               <StyledTab label="2018" />
               <StyledTab label="2022" />
+              <StyledTab label="2023" />
             </Tabs>
           </Box>
           <JournalItem index={value}></JournalItem>
