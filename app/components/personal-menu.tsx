@@ -59,6 +59,12 @@ export default function PersonalMenu() {
         <MenuItem style={menuItemStyle} onClick={() => handleNav("/poems")}>
           poems
         </MenuItem>
+        <MenuItem
+          style={menuItemStyle}
+          onClick={() => handleNav("/miscellaneous")}
+        >
+          miscellaneous
+        </MenuItem>
       </Menu>
     </Box>
   );
