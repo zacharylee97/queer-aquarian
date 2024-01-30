@@ -4,7 +4,7 @@ import Journal2018 from "./journal-2018";
 import Journal2022 from "./journal-2022";
 import Journal2023 from "./journal-2023";
 
-export default function ClobsItem({ ...props }) {
+export default function JournalItem({ ...props }) {
   if (props.index === 0) {
     return <Journal2018 />;
   } else if (props.index === 1) {
