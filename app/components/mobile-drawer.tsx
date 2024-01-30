@@ -36,6 +36,9 @@ export default function MobileDrawer({
         <Link href="/poems" className="mobile-link">
           poems
         </Link>
+        <Link href="/miscellaneous" className="mobile-link">
+          miscellaneous
+        </Link>
       </Box>
     </Drawer>
   );

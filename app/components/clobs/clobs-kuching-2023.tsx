@@ -9,13 +9,13 @@ export default function ClobsKuching2023() {
       <Typography variant="h5">
         <b>CLOBS I Have to Deal with in Kuching</b>
         <br />
-      </Typography>
-      <Typography variant="body1">
         {`Transcribed from texts to my brother, Jeremy`}
         <br />
         {`Dec. 6, 2023`}
         <br />
-        <br />
+      </Typography>
+      <br />
+      <Typography variant="body1">
         {`In Malaysia, the main issue was that I wanted to rest and recover from the stress of HK`}
         <br />
         <br />
